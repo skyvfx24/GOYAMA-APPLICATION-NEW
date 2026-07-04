@@ -1,0 +1,3 @@
+file_name,source,failure_type,message
+kfintech_real_test.xlsx,KFINTECH,PARSER_ERROR,Missing required columns in CRM file: Investor Name
+nse_real_test.xlsx,NSE,PARSER_ERROR,Missing required columns in CRM file: Investor Name

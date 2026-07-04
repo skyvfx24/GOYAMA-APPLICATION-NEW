@@ -1,0 +1,4 @@
+record_type,pan,investor_name,mobile,email,kyc_status,fatca_status,investor_status,last_transaction_date,total_amount,crm_client_id,report_source,report_folio,report_raw_row_index
+REPORT,ABCDE1234F,RAMESH SHARMA,,ramesh@gmail.com,UNKNOWN,UNKNOWN,UNKNOWN,,50000,,BSE,,2
+REPORT,TUVWX1111Y,VIJAY PATEL,,vijay@gmail.com,UNKNOWN,UNKNOWN,UNKNOWN,,80000,,BSE,,3
+REPORT,DEFGH4444X,ROHIT KUMAR GUPTA,9777777777,rohit@gmail.com,UNKNOWN,UNKNOWN,UNKNOWN,,25000,,NSE,,2

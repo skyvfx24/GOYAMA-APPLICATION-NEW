@@ -1,0 +1,120 @@
+2026-06-13 22:07:39.373 | INFO     | mfrecon.facade:__init__:53 - Reconciliation Engine initialized with Run ID: c1e5d41b-3864-4eef-8b60-cedc826aedde
+2026-06-13 22:07:39.374 | INFO     | mfrecon.facade:run:90 - Starting reconciliation execution. CRM file: crm_master.xlsx
+2026-06-13 22:07:39.375 | ERROR    | mfrecon.facade:run:94 - CRM master file not found: sample_run\input\crm_master.xlsx
+2026-06-13 22:14:35.843 | INFO     | mfrecon.facade:__init__:53 - Reconciliation Engine initialized with Run ID: 6e15e168-f9a3-4acd-85c2-bfd581626b7d
+2026-06-13 22:14:35.844 | INFO     | mfrecon.facade:run:90 - Starting reconciliation execution. CRM file: crm_master.csv
+2026-06-13 22:14:35.856 | DEBUG    | mfrecon.facade:run:98 - CRM file SHA-256 calculated: eb7f36efe68f7e7092cc5bd0608e7c47f30c442ff018c1534207b9c7ac720822
+2026-06-13 22:14:35.859 | ERROR    | mfrecon.parsers.crm:parse_crm:164 - Pandas failed to read file: Error tokenizing data. C error: Expected 2 fields in line 14, saw 4
+
+2026-06-13 22:16:21.798 | INFO     | mfrecon.facade:__init__:53 - Reconciliation Engine initialized with Run ID: 5e0d5749-b6a3-42b8-b6c5-0f09d9fe4c62
+2026-06-13 22:16:21.798 | INFO     | mfrecon.facade:run:90 - Starting reconciliation execution. CRM file: crm_master.csv
+2026-06-13 22:16:21.799 | DEBUG    | mfrecon.facade:run:98 - CRM file SHA-256 calculated: eb7f36efe68f7e7092cc5bd0608e7c47f30c442ff018c1534207b9c7ac720822
+2026-06-13 22:16:21.801 | INFO     | mfrecon.parsers.crm:parse_crm:164 - File crm_master.csv has Excel signature despite .csv extension. Falling back to Excel reader.
+2026-06-13 22:16:21.806 | DEBUG    | mfrecon.parsers.crm:_read_excel:348 - Auto-selected worksheet: 'Customer Data'
+2026-06-13 22:16:21.818 | ERROR    | mfrecon.parsers.crm:map_headers:79 - Failed to map required headers. Missing: ['PAN', 'Investor Name']
+2026-06-13 22:17:03.361 | INFO     | mfrecon.facade:__init__:53 - Reconciliation Engine initialized with Run ID: 41b9c1eb-7cef-4f54-9136-d74caaef3baa
+2026-06-13 22:17:03.361 | INFO     | mfrecon.facade:run:90 - Starting reconciliation execution. CRM file: crm_master.csv
+2026-06-13 22:17:03.362 | DEBUG    | mfrecon.facade:run:98 - CRM file SHA-256 calculated: eb7f36efe68f7e7092cc5bd0608e7c47f30c442ff018c1534207b9c7ac720822
+2026-06-13 22:17:03.364 | INFO     | mfrecon.parsers.crm:parse_crm:164 - File crm_master.csv has Excel signature despite .csv extension. Falling back to Excel reader.
+2026-06-13 22:17:03.370 | DEBUG    | mfrecon.parsers.crm:_read_excel:369 - Auto-selected worksheet: 'Customer Data'
+2026-06-13 22:17:03.381 | INFO     | mfrecon.parsers.crm:parse_crm:207 - Combining split name columns 'First Name' and 'Last Name' into 'Investor Name'
+2026-06-13 22:17:03.408 | INFO     | mfrecon.parsers.crm:parse_crm:335 - CRM Parsing Complete: crm_master.csv. Total: 10, Parsed: 10, Failed: 0
+2026-06-13 22:17:03.411 | WARNING  | mfrecon.facade:run:128 - Normalization failed for CRM record: Invalid PAN format: 'ANSH28390A' (normalized: 'ANSH28390A')
+2026-06-13 22:17:03.413 | DEBUG    | mfrecon.facade:run:177 - Report file Aakash Jamnik BAjaj.pdf SHA-256: 9fa44bfc1045ea4f061b56aeee1f9273600755574c3728ea278243d45450549b
+2026-06-13 22:17:03.413 | INFO     | mfrecon.parsers.registry:detect_parser:69 - Auto-detected PDF CAS Parser for file: Aakash Jamnik BAjaj.pdf
+2026-06-13 22:17:03.916 | INFO     | mfrecon.parsers.pdf_cas:parse_report:138 - PDF CAS Ingestion Complete: Aakash Jamnik BAjaj.pdf. Total: 5, Parsed: 2, Failed: 3
+2026-06-13 22:17:04.083 | INFO     | mfrecon.facade:run:324 - Reconciliation session complete. Run ID: 41b9c1eb-7cef-4f54-9136-d74caaef3baa
+2026-06-26 13:10:35.620 | INFO     | mfrecon.facade:__init__:53 - Reconciliation Engine initialized with Run ID: 0811e2e1-cea4-4bd8-a1b8-a67242ba054b
+2026-06-26 13:10:35.620 | INFO     | mfrecon.facade:run:90 - Starting reconciliation execution. CRM file: sample_crm.xlsx
+2026-06-26 13:10:35.632 | DEBUG    | mfrecon.facade:run:98 - CRM file SHA-256 calculated: ddefbadb901ca9b0a97eaf570c554cfed759df023def1751f9564c005ee2bf44
+2026-06-26 13:10:35.637 | DEBUG    | mfrecon.parsers.crm:_read_excel:386 - Auto-selected worksheet: 'Sheet1'
+2026-06-26 13:10:35.649 | INFO     | mfrecon.parsers.crm:parse_crm:352 - CRM Parsing Complete: sample_crm.xlsx. Total: 10, Parsed: 1, Failed: 9
+2026-06-26 13:10:35.661 | DEBUG    | mfrecon.facade:run:177 - Report file sample_cams.xlsx SHA-256: 7544ea3ed0e806acfa379186e9d10424254d56f6192648e2c23621063e401a3e
+2026-06-26 13:10:35.680 | INFO     | mfrecon.parsers.cams:parse_report:223 - CAMS Parsing Complete: sample_cams.xlsx. Total: 5, Parsed: 0, Failed: 5
+2026-06-26 13:10:35.691 | DEBUG    | mfrecon.facade:run:177 - Report file sample_insurance.xlsx SHA-256: 97486b0cd586e5fc41d8c3e4993294784ed15cdca738ee22d2ab2d3aaa390411
+2026-06-26 13:10:35.703 | INFO     | mfrecon.parsers.insurance:parse_report:199 - Insurance Parsing Complete: sample_insurance.xlsx. Total: 2, Parsed: 0, Failed: 2
+2026-06-26 13:10:35.781 | INFO     | mfrecon.facade:run:326 - Reconciliation session complete. Run ID: 0811e2e1-cea4-4bd8-a1b8-a67242ba054b
+2026-06-26 13:14:53.561 | INFO     | mfrecon.facade:__init__:53 - Reconciliation Engine initialized with Run ID: 8e322864-b6d5-4ad4-8fe5-8b8e22c1fef9
+2026-06-26 13:14:53.561 | INFO     | mfrecon.facade:run:90 - Starting reconciliation execution. CRM file: sample_crm.xlsx
+2026-06-26 13:14:53.562 | DEBUG    | mfrecon.facade:run:98 - CRM file SHA-256 calculated: ddefbadb901ca9b0a97eaf570c554cfed759df023def1751f9564c005ee2bf44
+2026-06-26 13:14:53.567 | DEBUG    | mfrecon.parsers.crm:_read_excel:386 - Auto-selected worksheet: 'Sheet1'
+2026-06-26 13:14:53.580 | INFO     | mfrecon.parsers.crm:parse_crm:352 - CRM Parsing Complete: sample_crm.xlsx. Total: 10, Parsed: 1, Failed: 9
+2026-06-26 13:14:53.582 | DEBUG    | mfrecon.facade:run:177 - Report file sample_cams.xlsx SHA-256: 7544ea3ed0e806acfa379186e9d10424254d56f6192648e2c23621063e401a3e
+2026-06-26 13:14:53.600 | INFO     | mfrecon.parsers.cams:parse_report:223 - CAMS Parsing Complete: sample_cams.xlsx. Total: 5, Parsed: 0, Failed: 5
+2026-06-26 13:14:53.601 | DEBUG    | mfrecon.facade:run:177 - Report file sample_insurance.xlsx SHA-256: 97486b0cd586e5fc41d8c3e4993294784ed15cdca738ee22d2ab2d3aaa390411
+2026-06-26 13:14:53.614 | INFO     | mfrecon.parsers.insurance:parse_report:199 - Insurance Parsing Complete: sample_insurance.xlsx. Total: 2, Parsed: 0, Failed: 2
+2026-06-26 13:14:53.679 | INFO     | mfrecon.facade:run:326 - Reconciliation session complete. Run ID: 8e322864-b6d5-4ad4-8fe5-8b8e22c1fef9
+2026-06-26 13:30:26.095 | INFO     | mfrecon.facade:__init__:53 - Reconciliation Engine initialized with Run ID: 32ebc2f3-4fc6-4cf5-afd5-e296c25921d6
+2026-06-26 13:30:26.096 | INFO     | mfrecon.facade:run:90 - Starting reconciliation execution. CRM file: sample_crm.xlsx
+2026-06-26 13:30:26.107 | DEBUG    | mfrecon.facade:run:98 - CRM file SHA-256 calculated: 2f4b4e526779c4c205c7d201a3bcd06552940e1f4c76d7e01affba1ef2567792
+2026-06-26 13:30:26.112 | DEBUG    | mfrecon.parsers.crm:_read_excel:386 - Auto-selected worksheet: 'Sheet1'
+2026-06-26 13:30:26.125 | INFO     | mfrecon.parsers.crm:parse_crm:352 - CRM Parsing Complete: sample_crm.xlsx. Total: 10, Parsed: 1, Failed: 9
+2026-06-26 13:30:26.135 | DEBUG    | mfrecon.facade:run:177 - Report file sample_cams.xlsx SHA-256: ee30bd87ed08b93ad058a2b72065f81ee2b4240185bf7337fd79bd78969a016d
+2026-06-26 13:30:26.154 | INFO     | mfrecon.parsers.cams:parse_report:223 - CAMS Parsing Complete: sample_cams.xlsx. Total: 5, Parsed: 0, Failed: 5
+2026-06-26 13:30:26.164 | DEBUG    | mfrecon.facade:run:177 - Report file sample_insurance.xlsx SHA-256: a34b4fb1b34db8afeb0fcd39a41b831561cdd0b78ea299391ae3b68e8ebae955
+2026-06-26 13:30:26.176 | INFO     | mfrecon.parsers.insurance:parse_report:199 - Insurance Parsing Complete: sample_insurance.xlsx. Total: 2, Parsed: 0, Failed: 2
+2026-06-26 13:30:26.187 | DEBUG    | mfrecon.facade:run:177 - Report file sample_kfintech.xlsx SHA-256: a9183d58033e3d97e50109d77e9b9f5795e3de6805f2a507e560ea71b659243b
+2026-06-26 13:30:26.199 | INFO     | mfrecon.parsers.cams:parse_report:223 - CAMS Parsing Complete: sample_kfintech.xlsx. Total: 1, Parsed: 0, Failed: 1
+2026-06-26 13:30:26.210 | DEBUG    | mfrecon.facade:run:177 - Report file sample_bse.xlsx SHA-256: bf10031af68a363fc0781447237bda0a059eab2e90933c9622abc52e608a3a5c
+2026-06-26 13:30:26.221 | INFO     | mfrecon.parsers.bse:parse_report:210 - BSE Parsing Complete: sample_bse.xlsx. Total: 3, Parsed: 3, Failed: 0
+2026-06-26 13:30:26.222 | WARNING  | mfrecon.facade:run:230 - Normalization failed for report record in sample_bse.xlsx: Invalid PAN format: 'SCENARIO19P' (normalized: 'SCENARIO19P')
+2026-06-26 13:30:26.232 | DEBUG    | mfrecon.facade:run:177 - Report file sample_nse.xlsx SHA-256: 1ed56699b40daadf64d6a774a24b364614563d1ad655090f1fdb525f6f5735a3
+2026-06-26 13:30:26.243 | INFO     | mfrecon.parsers.nse:parse_report:211 - NSE Parsing Complete: sample_nse.xlsx. Total: 1, Parsed: 1, Failed: 0
+2026-06-26 13:30:26.342 | INFO     | mfrecon.facade:run:326 - Reconciliation session complete. Run ID: 32ebc2f3-4fc6-4cf5-afd5-e296c25921d6
+2026-06-26 13:34:15.830 | INFO     | mfrecon.facade:__init__:53 - Reconciliation Engine initialized with Run ID: bc2ad27d-5f92-47e6-9430-584f66862099
+2026-06-26 13:34:15.830 | INFO     | mfrecon.facade:run:90 - Starting reconciliation execution. CRM file: sample_crm.xlsx
+2026-06-26 13:34:15.831 | DEBUG    | mfrecon.facade:run:98 - CRM file SHA-256 calculated: 2f4b4e526779c4c205c7d201a3bcd06552940e1f4c76d7e01affba1ef2567792
+2026-06-26 13:34:15.836 | DEBUG    | mfrecon.parsers.crm:_read_excel:381 - Auto-selected worksheet: 'Sheet1'
+2026-06-26 13:34:15.848 | INFO     | mfrecon.parsers.crm:parse_crm:347 - CRM Parsing Complete: sample_crm.xlsx. Total: 10, Parsed: 10, Failed: 0
+2026-06-26 13:34:15.849 | WARNING  | mfrecon.facade:run:128 - Normalization failed for CRM record: Mobile number is an obvious repeating dummy: '9999999999'
+2026-06-26 13:34:15.850 | WARNING  | mfrecon.facade:run:128 - Normalization failed for CRM record: Invalid PAN format: 'SCENARIO18P' (normalized: 'SCENARIO18P')
+2026-06-26 13:34:15.851 | WARNING  | mfrecon.facade:run:128 - Normalization failed for CRM record: Invalid PAN format: 'SCENARIO19P' (normalized: 'SCENARIO19P')
+2026-06-26 13:34:15.851 | WARNING  | mfrecon.facade:run:128 - Normalization failed for CRM record: Invalid PAN format: 'SCENARIO20P' (normalized: 'SCENARIO20P')
+2026-06-26 13:34:15.852 | WARNING  | mfrecon.facade:run:128 - Normalization failed for CRM record: Invalid PAN format: 'SCENARIOMIN' (normalized: 'SCENARIOMIN')
+2026-06-26 13:34:15.854 | DEBUG    | mfrecon.facade:run:177 - Report file sample_cams.xlsx SHA-256: ee30bd87ed08b93ad058a2b72065f81ee2b4240185bf7337fd79bd78969a016d
+2026-06-26 13:34:15.872 | INFO     | mfrecon.parsers.cams:parse_report:228 - CAMS Parsing Complete: sample_cams.xlsx. Total: 5, Parsed: 5, Failed: 0
+2026-06-26 13:34:15.873 | WARNING  | mfrecon.facade:run:230 - Normalization failed for report record in sample_cams.xlsx: Invalid PAN format: 'SCENARIO18P' (normalized: 'SCENARIO18P')
+2026-06-26 13:34:15.874 | WARNING  | mfrecon.facade:run:230 - Normalization failed for report record in sample_cams.xlsx: Invalid PAN format: 'SCENARIO20P' (normalized: 'SCENARIO20P')
+2026-06-26 13:34:15.874 | WARNING  | mfrecon.facade:run:230 - Normalization failed for report record in sample_cams.xlsx: Invalid PAN format: 'SCENARIOMIN' (normalized: 'SCENARIOMIN')
+2026-06-26 13:34:15.876 | DEBUG    | mfrecon.facade:run:177 - Report file sample_insurance.xlsx SHA-256: a34b4fb1b34db8afeb0fcd39a41b831561cdd0b78ea299391ae3b68e8ebae955
+2026-06-26 13:34:15.887 | INFO     | mfrecon.parsers.insurance:parse_report:206 - Insurance Parsing Complete: sample_insurance.xlsx. Total: 2, Parsed: 2, Failed: 0
+2026-06-26 13:34:15.888 | WARNING  | mfrecon.facade:run:230 - Normalization failed for report record in sample_insurance.xlsx: Mobile number is an obvious repeating dummy: '8888888888'
+2026-06-26 13:34:15.889 | DEBUG    | mfrecon.facade:run:177 - Report file sample_kfintech.xlsx SHA-256: a9183d58033e3d97e50109d77e9b9f5795e3de6805f2a507e560ea71b659243b
+2026-06-26 13:34:15.902 | INFO     | mfrecon.parsers.kfintech:parse_report:222 - KFintech Parsing Complete: sample_kfintech.xlsx. Total: 1, Parsed: 1, Failed: 0
+2026-06-26 13:34:15.903 | WARNING  | mfrecon.facade:run:230 - Normalization failed for report record in sample_kfintech.xlsx: Mobile number is an obvious repeating dummy: '8888888888'
+2026-06-26 13:34:15.904 | DEBUG    | mfrecon.facade:run:177 - Report file sample_bse.xlsx SHA-256: bf10031af68a363fc0781447237bda0a059eab2e90933c9622abc52e608a3a5c
+2026-06-26 13:34:15.915 | INFO     | mfrecon.parsers.bse:parse_report:217 - BSE Parsing Complete: sample_bse.xlsx. Total: 3, Parsed: 3, Failed: 0
+2026-06-26 13:34:15.916 | WARNING  | mfrecon.facade:run:230 - Normalization failed for report record in sample_bse.xlsx: Invalid PAN format: 'SCENARIO19P' (normalized: 'SCENARIO19P')
+2026-06-26 13:34:15.917 | DEBUG    | mfrecon.facade:run:177 - Report file sample_nse.xlsx SHA-256: 1ed56699b40daadf64d6a774a24b364614563d1ad655090f1fdb525f6f5735a3
+2026-06-26 13:34:15.928 | INFO     | mfrecon.parsers.nse:parse_report:218 - NSE Parsing Complete: sample_nse.xlsx. Total: 1, Parsed: 1, Failed: 0
+2026-06-26 13:34:16.051 | INFO     | mfrecon.facade:run:326 - Reconciliation session complete. Run ID: bc2ad27d-5f92-47e6-9430-584f66862099
+2026-06-27 16:49:00.778 | INFO     | mfrecon.facade:__init__:53 - Reconciliation Engine initialized with Run ID: 783a1ddc-142e-4299-bb10-ea3c35094dd6
+2026-06-27 16:49:00.779 | INFO     | mfrecon.facade:run:90 - Starting reconciliation execution. CRM file: sample_crm.xlsx
+2026-06-27 16:49:00.793 | DEBUG    | mfrecon.facade:run:98 - CRM file SHA-256 calculated: 21bc747d345893b6d6d3e07afae2a54416700d8b593a0bb41cbc38ea09778253
+2026-06-27 16:49:00.799 | DEBUG    | mfrecon.parsers.crm:_read_excel:381 - Auto-selected worksheet: 'Sheet1'
+2026-06-27 16:49:00.816 | INFO     | mfrecon.parsers.crm:parse_crm:347 - CRM Parsing Complete: sample_crm.xlsx. Total: 10, Parsed: 10, Failed: 0
+2026-06-27 16:49:00.817 | WARNING  | mfrecon.facade:run:128 - Normalization failed for CRM record: Mobile number is an obvious repeating dummy: '9999999999'
+2026-06-27 16:49:00.819 | WARNING  | mfrecon.facade:run:128 - Normalization failed for CRM record: Invalid PAN format: 'SCENARIO18P' (normalized: 'SCENARIO18P')
+2026-06-27 16:49:00.819 | WARNING  | mfrecon.facade:run:128 - Normalization failed for CRM record: Invalid PAN format: 'SCENARIO19P' (normalized: 'SCENARIO19P')
+2026-06-27 16:49:00.820 | WARNING  | mfrecon.facade:run:128 - Normalization failed for CRM record: Invalid PAN format: 'SCENARIO20P' (normalized: 'SCENARIO20P')
+2026-06-27 16:49:00.821 | WARNING  | mfrecon.facade:run:128 - Normalization failed for CRM record: Invalid PAN format: 'SCENARIOMIN' (normalized: 'SCENARIOMIN')
+2026-06-27 16:49:00.840 | DEBUG    | mfrecon.facade:run:177 - Report file sample_cas.pdf SHA-256: 9fa44bfc1045ea4f061b56aeee1f9273600755574c3728ea278243d45450549b
+2026-06-27 16:49:00.841 | INFO     | mfrecon.parsers.registry:detect_parser:69 - Auto-detected PDF CAS Parser for file: sample_cas.pdf
+2026-06-27 16:49:01.410 | INFO     | mfrecon.parsers.pdf_cas:parse_report:179 - PDF CAS Ingestion Complete: sample_cas.pdf. Total: 5, Parsed: 2, Failed: 3
+2026-06-27 16:49:01.421 | DEBUG    | mfrecon.facade:run:177 - Report file sample_cams.xlsx SHA-256: 37f4efd7ceaa7a5fabd700c737476c29588ac4654fe51fda3a2879ba2876cce0
+2026-06-27 16:49:01.437 | INFO     | mfrecon.parsers.cams:parse_report:228 - CAMS Parsing Complete: sample_cams.xlsx. Total: 5, Parsed: 5, Failed: 0
+2026-06-27 16:49:01.438 | WARNING  | mfrecon.facade:run:230 - Normalization failed for report record in sample_cams.xlsx: Invalid PAN format: 'SCENARIO18P' (normalized: 'SCENARIO18P')
+2026-06-27 16:49:01.438 | WARNING  | mfrecon.facade:run:230 - Normalization failed for report record in sample_cams.xlsx: Invalid PAN format: 'SCENARIO20P' (normalized: 'SCENARIO20P')
+2026-06-27 16:49:01.439 | WARNING  | mfrecon.facade:run:230 - Normalization failed for report record in sample_cams.xlsx: Invalid PAN format: 'SCENARIOMIN' (normalized: 'SCENARIOMIN')
+2026-06-27 16:49:01.450 | DEBUG    | mfrecon.facade:run:177 - Report file sample_kfintech.xlsx SHA-256: c573da561885f2cb03273c63d1b27e4252fed4dbbff7ee126b670f9616c8fc4a
+2026-06-27 16:49:01.464 | INFO     | mfrecon.parsers.kfintech:parse_report:222 - KFintech Parsing Complete: sample_kfintech.xlsx. Total: 1, Parsed: 1, Failed: 0
+2026-06-27 16:49:01.465 | WARNING  | mfrecon.facade:run:230 - Normalization failed for report record in sample_kfintech.xlsx: Mobile number is an obvious repeating dummy: '8888888888'
+2026-06-27 16:49:01.475 | DEBUG    | mfrecon.facade:run:177 - Report file sample_bse.xlsx SHA-256: 7c4073119b9e76fdf1fb8c2d12ad4cb2310b19dfa03f52b3f6c853fbd2c42c58
+2026-06-27 16:49:01.487 | INFO     | mfrecon.parsers.bse:parse_report:218 - BSE Parsing Complete: sample_bse.xlsx. Total: 3, Parsed: 3, Failed: 0
+2026-06-27 16:49:01.488 | WARNING  | mfrecon.facade:run:230 - Normalization failed for report record in sample_bse.xlsx: Invalid PAN format: 'SCENARIO19P' (normalized: 'SCENARIO19P')
+2026-06-27 16:49:01.498 | DEBUG    | mfrecon.facade:run:177 - Report file sample_nse.xlsx SHA-256: cbc76cb15de677d23657e75eb634fe1f1b20837ffa58646588dc50737f09a59e
+2026-06-27 16:49:01.512 | INFO     | mfrecon.parsers.nse:parse_report:219 - NSE Parsing Complete: sample_nse.xlsx. Total: 1, Parsed: 1, Failed: 0
+2026-06-27 16:49:01.523 | DEBUG    | mfrecon.facade:run:177 - Report file sample_insurance.xlsx SHA-256: 419a612045c6da0fc0ccb127747c94aa58b2e1035c60420603f05240d9a0f573
+2026-06-27 16:49:01.536 | INFO     | mfrecon.parsers.insurance:parse_report:206 - Insurance Parsing Complete: sample_insurance.xlsx. Total: 2, Parsed: 2, Failed: 0
+2026-06-27 16:49:01.536 | WARNING  | mfrecon.facade:run:230 - Normalization failed for report record in sample_insurance.xlsx: Mobile number is an obvious repeating dummy: '8888888888'
+2026-06-27 16:49:01.653 | INFO     | mfrecon.facade:run:326 - Reconciliation session complete. Run ID: 783a1ddc-142e-4299-bb10-ea3c35094dd6

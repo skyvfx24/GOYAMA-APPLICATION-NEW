@@ -1,0 +1,5 @@
+discrepancy_type,pan,field_name,crm_value,report_value,severity,explanation,file_name,raw_row_index,folio_number
+MISSING_IN_CRM,ABCDE1234F,,,,CRITICAL,Record with PAN 'ABCDE1234F' and Folio 'None' is missing in CRM database.,sample_bse.xlsx,2,N/A
+MISSING_IN_CRM,TUVWX1111Y,,,,CRITICAL,Record with PAN 'TUVWX1111Y' and Folio 'None' is missing in CRM database.,sample_bse.xlsx,3,N/A
+MISSING_IN_CRM,DEFGH4444X,,,,CRITICAL,Record with PAN 'DEFGH4444X' and Folio 'None' is missing in CRM database.,sample_nse.xlsx,2,N/A
+NAME_MISMATCH,CMSPJ2820B,investor_name,INCOMPLETE CRM INVESTOR,AAKASH VIJAY JAMANIK,HIGH,Investor Name mismatch detected. CRM value 'INCOMPLETE CRM INVESTOR' differs from Report value 'AAKASH VIJAY JAMANIK'.,sample_cas.pdf,2,77711526233

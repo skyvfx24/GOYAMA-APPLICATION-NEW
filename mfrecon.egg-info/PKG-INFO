@@ -1,0 +1,86 @@
+Metadata-Version: 2.4
+Name: mfrecon
+Version: 1.0.0
+Summary: Production-grade Mutual Fund Reconciliation Engine library
+Author-email: Goyama Financial Dev Team <dev@goyama.com>
+License: Proprietary
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic>=2.7.0
+Requires-Dist: pyyaml>=6.0
+Requires-Dist: loguru>=0.7.0
+Requires-Dist: pandas>=2.2.2
+Requires-Dist: openpyxl>=3.1.5
+Requires-Dist: rapidfuzz>=3.9.3
+Requires-Dist: pdfplumber>=0.11.0
+Requires-Dist: email-validator>=2.0.0
+
+# Mutual Fund & Insurance Reconciliation Engine (mfrecon)
+
+A production-grade Python library designed for comparing CRM master records against external broker, clearing house, and insurance reports (CAMS, KFintech, BSE, NSE, PDF CAS, and INSURANCE).
+
+It features a FastAPI backend server serving a React dashboard interface, as well as a flexible command-line interface (CLI).
+
+---
+
+## Installation & Setup
+
+### Prerequisites
+- Python 3.12 or higher.
+
+### Installing Dependencies
+Ensure you are in the project package directory (`c:\GOYAMA\pythonenginecrm\pythonenginecrm`), then:
+```powershell
+# Activate the virtual environment
+.\venv\Scripts\activate
+
+# Install the dependencies from requirements.txt
+pip install -r requirements.txt
+```
+
+---
+
+## How to Run
+
+### 1. Launching the Web Application (Interactive Dashboard)
+You can start the FastAPI backend and React frontend together by running:
+```powershell
+python gui_launcher.py
+```
+This starts the backend server at `http://127.0.0.1:8000/` and automatically opens it in your default web browser.
+
+From the Web UI, you can:
+- Load synthetic demo data with the "Load Demo Data" button (which includes the newly added `sample_insurance.xlsx`).
+- Upload your own CRM master sheets, PDF statement references, RTA files, and INSURANCE files.
+- Run the reconciliation pipeline and download the customized Excel discrepancy reports.
+
+### 2. Running Reconciliation via CLI
+The package exposes a command-line script entry point `mfrecon` (or via Python command `python -m mfrecon.cli`).
+
+Command format:
+```powershell
+python -m mfrecon.cli run --crm <crm_path> --reports <report_path_1> <report_path_2> ... [--config <config_yaml>] [--output <output_dir>]
+```
+
+Example:
+```powershell
+python -m mfrecon.cli run --crm goyama-webapp/demo_data/sample_crm.xlsx --reports goyama-webapp/demo_data/sample_cams.xlsx goyama-webapp/demo_data/sample_insurance.xlsx --output sample_run/output
+```
+
+### 3. Running Automated Tests
+To run the full suite of unit and integration tests:
+```powershell
+python -m pytest
+```
+
+---
+
+## Features
+
+- **Multi-Source Support**: Seamlessly processes CRM, CAMS, KFintech, BSE, NSE, PDF CAS statements, and **INSURANCE** files.
+- **Customized Excel Outputs**: Generates high-fidelity, three-tab Excel worksheets matching the GOYAMA layout:
+  1. **`Summary`**: Executive view including checked file lists, error counts, matched sources, and a categorized issues list.
+  2. **`Reconciliation`**: Side-by-side field comparison grid color-coded for matches (Green), mismatches (Orange), and missing values/needs verification (Yellow). Supports duplicate record columns.
+  3. **`Errors & Actions`**: Clean tabular log mapping discrepancy severity (with soft colored highlights), source files, found vs should-be values, and automated recommended actions.
+- **Data Normalization & Validation**: Automatically cleans PANs, emails, mobiles, dates, and currency values to avoid cosmetic mismatch warnings.
+- **Explainability Engine**: Translates complex alignment states into plain-English discrepancy explanations.

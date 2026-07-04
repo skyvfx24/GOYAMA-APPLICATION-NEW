@@ -1,0 +1,13 @@
+discrepancy_type,pan,field_name,crm_value,report_value,severity,explanation,file_name,raw_row_index,folio_number
+NAME_MISMATCH,ANUPM8373M,investor_name,DHIRAJ MOHANLAL MODI,DHIRAJ MODI,HIGH,Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI'.,N/A,3,7771215065
+MOBILE_MISMATCH,ANUPM8373M,mobile,9833708075,,MEDIUM,Mobile mismatch detected. CRM value '9833708075' differs from Report value 'None'.,N/A,3,7771215065
+NAME_MISMATCH,ANUPM8373M,investor_name,DHIRAJ MOHANLAL MODI,DHIRAJ MODI STATEMENT DATE,HIGH,Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI STATEMENT DATE'.,N/A,1,91076870015
+MOBILE_MISMATCH,ANUPM8373M,mobile,9833708075,9867065625,MEDIUM,Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.,N/A,1,91076870015
+NAME_MISMATCH,ANUPM8373M,investor_name,DHIRAJ MOHANLAL MODI,DHIRAJ MODI CAN,HIGH,Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI CAN'.,N/A,7,N/A
+MOBILE_MISMATCH,ANUPM8373M,mobile,9833708075,,MEDIUM,Mobile mismatch detected. CRM value '9833708075' differs from Report value 'None'.,N/A,7,N/A
+MISSING_IN_REPORT,AHYPD2463R,,,,HIGH,CRM Client ID '37' with PAN 'AHYPD2463R' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AMZPM3033A,,,,HIGH,CRM Client ID '346' with PAN 'AMZPM3033A' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AJSPM7675A,,,,HIGH,CRM Client ID '482' with PAN 'AJSPM7675A' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,IGOPM2504R,,,,HIGH,CRM Client ID '641' with PAN 'IGOPM2504R' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AAIHD8153P,,,,HIGH,CRM Client ID '974' with PAN 'AAIHD8153P' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,ABIPM4075A,,,,HIGH,CRM Client ID '806' with PAN 'ABIPM4075A' is missing in the processed report files.,N/A,N/A,N/A

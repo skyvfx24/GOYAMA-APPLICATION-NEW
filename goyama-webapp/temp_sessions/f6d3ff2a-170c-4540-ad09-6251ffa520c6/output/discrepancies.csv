@@ -1,0 +1,25 @@
+discrepancy_type,pan,field_name,crm_value,report_value,severity,explanation,file_name,raw_row_index,folio_number
+STATUS_MISMATCH,ABIPM4075A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,bse_real_test.xlsx,2,N/A
+FATCA_MISMATCH,ABIPM4075A,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,bse_real_test.xlsx,2,N/A
+STATUS_MISMATCH,AJSPM7675A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,bse_real_test.xlsx,3,N/A
+FATCA_MISMATCH,AJSPM7675A,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,bse_real_test.xlsx,3,N/A
+EMAIL_MISMATCH,AAIHD8153P,email,dhiraj.modi@hotmail.com,dhiraj.wrong@icici.com,MEDIUM,Email mismatch detected. CRM value 'dhiraj.modi@hotmail.com' differs from Report value 'dhiraj.wrong@icici.com'.,bse_real_test.xlsx,4,N/A
+STATUS_MISMATCH,AAIHD8153P,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,bse_real_test.xlsx,4,N/A
+STATUS_MISMATCH,AHYPD2463R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,bse_real_test.xlsx,5,N/A
+KYC_MISMATCH,AHYPD2463R,kyc_status,VERIFIED,PENDING,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'PENDING'.,bse_real_test.xlsx,5,N/A
+FATCA_MISMATCH,AHYPD2463R,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,bse_real_test.xlsx,5,N/A
+FATCA_MISMATCH,ANUPM8373M,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,bse_real_test.xlsx,9,N/A
+STATUS_MISMATCH,IGOPM2504R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,bse_real_test.xlsx,10,N/A
+FATCA_MISMATCH,IGOPM2504R,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,bse_real_test.xlsx,10,N/A
+STATUS_MISMATCH,AMZPM3033A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,cams_real_test.xlsx,3,FAMZPCA01
+NAME_MISMATCH,ANUPM8373M,investor_name,DHIRAJ MOHANLAL MODI,DHIRAJ M MODI,HIGH,Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ M MODI'.,cams_real_test.xlsx,4,FANUPCAMS02
+STATUS_MISMATCH,AHYPD2463R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,cams_real_test.xlsx,6,FAHYPCA01
+MISSING_IN_CRM,BBZXY1234C,,,,CRITICAL,Record with PAN 'BBZXY1234C' and Folio 'FBBZCAMS06' is missing in CRM database.,cams_real_test.xlsx,7,FBBZCAMS06
+MOBILE_MISMATCH,AMZPM3033A,mobile,9819903349,9011223344,MEDIUM,Mobile mismatch detected. CRM value '9819903349' differs from Report value '9011223344'.,cams_real_test.xlsx,8,FAMZPCAMS08
+STATUS_MISMATCH,AMZPM3033A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,cams_real_test.xlsx,8,FAMZPCAMS08
+FATCA_MISMATCH,IGOPM2504R,fatca_status,COMPLIANT,NON_COMPLIANT,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'NON_COMPLIANT'.,cams_real_test.xlsx,9,FIGOPFATCA11A
+STATUS_MISMATCH,IGOPM2504R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,cams_real_test.xlsx,9,FIGOPFATCA11A
+STATUS_MISMATCH,AJSPM7675A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,cams_real_test.xlsx,10,FAJSPDUPX12
+STATUS_MISMATCH,AHYPD2463A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,cams_real_test.xlsx,14,FAHYPCA01
+STATUS_MISMATCH,ABIPM4075A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,cams_real_test.xlsx,15,FABIPCA01
+INCOMPLETE_CRM_RECORD,CMSPJ2820B,,,,MEDIUM,"CRM Record Client ID '12' with PAN 'CMSPJ2820B' is incomplete (missing contact info: mobile/email, and compliance status: KYC/FATCA) and is not present in processed reports.",N/A,N/A,N/A

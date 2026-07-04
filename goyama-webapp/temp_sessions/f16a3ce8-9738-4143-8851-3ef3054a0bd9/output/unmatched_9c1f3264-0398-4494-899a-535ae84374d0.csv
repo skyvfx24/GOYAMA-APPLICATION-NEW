@@ -1,0 +1,5 @@
+record_type,pan,investor_name,mobile,email,kyc_status,fatca_status,investor_status,last_transaction_date,total_amount,crm_client_id,report_source,report_folio,report_raw_row_index
+REPORT,ANUPM8373M,DHIRAJ MODI,,,UNKNOWN,UNKNOWN,UNKNOWN,,0.00,,PDF_CAS,7771215065,3
+REPORT,ANUPM8373M,DHIRAJ MODI STATEMENT DATE,9867065625,,UNKNOWN,UNKNOWN,UNKNOWN,,0.00,,PDF_CAS,91076870015,1
+REPORT,ANUPM8373M,DHIRAJ MODI CAN,,,UNKNOWN,UNKNOWN,UNKNOWN,,0.00,,PDF_CAS,,7
+CRM,ABIPM4075A,MOHANLAL MODI,9819903349,manish_fic@yahoo.com,UNKNOWN,UNKNOWN,ACTIVE,,0.00,806,,,

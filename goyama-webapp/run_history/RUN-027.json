@@ -1,0 +1,872 @@
+{
+  "run_id": "RUN-027",
+  "timestamp": "2026-07-04T08:47:36.033838Z",
+  "crm_filename": "crm data.xlsx - Customer Data.csv",
+  "report_count": 5,
+  "match_rate_percent": 100.0,
+  "discrepancy_count": 24,
+  "status": "success",
+  "result": {
+    "job_id": "f6d3ff2a-170c-4540-ad09-6251ffa520c6",
+    "status": "done",
+    "summary": {
+      "total_crm_records": 10,
+      "matched_records": 10,
+      "missing_in_crm": 1,
+      "missing_in_report": 0,
+      "discrepancy_count": 24,
+      "failed_files": 3,
+      "match_rate_percent": 100.0
+    },
+    "failed_files": [
+      {
+        "file_name": "kfintech_real_test.xlsx",
+        "source": "KFINTECH",
+        "failure_type": "PARSER_ERROR",
+        "message": "Missing required columns: Investor Name"
+      },
+      {
+        "file_name": "nse_real_test.xlsx",
+        "source": "NSE",
+        "failure_type": "PARSER_ERROR",
+        "message": "Missing required columns: Investor Name"
+      },
+      {
+        "file_name": "test_scenarios.xlsx",
+        "source": "UNKNOWN",
+        "failure_type": "PARSER_DETECTION_ERROR",
+        "message": "Could not auto-detect report source for file: test_scenarios.xlsx"
+      }
+    ],
+    "source_breakdown": {
+      "CAMS": {
+        "processed": 11,
+        "matched": 10,
+        "discrepancies": 8
+      },
+      "KFINTECH": {
+        "processed": 0,
+        "matched": 0,
+        "discrepancies": 0
+      },
+      "BSE": {
+        "processed": 6,
+        "matched": 6,
+        "discrepancies": 6
+      },
+      "NSE": {
+        "processed": 0,
+        "matched": 0,
+        "discrepancies": 0
+      },
+      "PDF_CAS": {
+        "processed": 0,
+        "matched": 0,
+        "discrepancies": 0
+      }
+    },
+    "pipeline_stages": [
+      {
+        "stage": "CRM Uploaded",
+        "status": "done"
+      },
+      {
+        "stage": "Reports Uploaded",
+        "status": "done"
+      },
+      {
+        "stage": "Validation",
+        "status": "done"
+      },
+      {
+        "stage": "Reconciliation",
+        "status": "done"
+      },
+      {
+        "stage": "Report Generation",
+        "status": "done"
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_type": "STATUS_MISMATCH",
+        "pan": "ABIPM4075A",
+        "field_name": "investor_status",
+        "crm_value": "ACTIVE",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "bse_real_test.xlsx",
+          "file_id": "37cb19fe-a708-4867-91d1-d77a8995a457",
+          "raw_row_index": "2",
+          "folio_number": "N/A"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.452512Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: BSE",
+          "skipped_comparisons": [
+            "MOBILE_COMPARISON_SKIPPED",
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "FATCA_MISMATCH",
+        "pan": "ABIPM4075A",
+        "field_name": "fatca_status",
+        "crm_value": "COMPLIANT",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "bse_real_test.xlsx",
+          "file_id": "37cb19fe-a708-4867-91d1-d77a8995a457",
+          "raw_row_index": "2",
+          "folio_number": "N/A"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.452512Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: BSE",
+          "skipped_comparisons": [
+            "MOBILE_COMPARISON_SKIPPED",
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "STATUS_MISMATCH",
+        "pan": "AJSPM7675A",
+        "field_name": "investor_status",
+        "crm_value": "ACTIVE",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "bse_real_test.xlsx",
+          "file_id": "37cb19fe-a708-4867-91d1-d77a8995a457",
+          "raw_row_index": "3",
+          "folio_number": "N/A"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.453408Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: BSE",
+          "skipped_comparisons": [
+            "MOBILE_COMPARISON_SKIPPED",
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "FATCA_MISMATCH",
+        "pan": "AJSPM7675A",
+        "field_name": "fatca_status",
+        "crm_value": "COMPLIANT",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "bse_real_test.xlsx",
+          "file_id": "37cb19fe-a708-4867-91d1-d77a8995a457",
+          "raw_row_index": "3",
+          "folio_number": "N/A"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.453408Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: BSE",
+          "skipped_comparisons": [
+            "MOBILE_COMPARISON_SKIPPED",
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "EMAIL_MISMATCH",
+        "pan": "AAIHD8153P",
+        "field_name": "email",
+        "crm_value": "dhiraj.modi@hotmail.com",
+        "report_value": "dhiraj.wrong@icici.com",
+        "severity": "MEDIUM",
+        "explanation": "Email mismatch detected. CRM value 'dhiraj.modi@hotmail.com' differs from Report value 'dhiraj.wrong@icici.com'.",
+        "source_info": {
+          "file_name": "bse_real_test.xlsx",
+          "file_id": "37cb19fe-a708-4867-91d1-d77a8995a457",
+          "raw_row_index": "4",
+          "folio_number": "N/A"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.454031Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: BSE",
+          "skipped_comparisons": [
+            "MOBILE_COMPARISON_SKIPPED",
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "STATUS_MISMATCH",
+        "pan": "AAIHD8153P",
+        "field_name": "investor_status",
+        "crm_value": "ACTIVE",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "bse_real_test.xlsx",
+          "file_id": "37cb19fe-a708-4867-91d1-d77a8995a457",
+          "raw_row_index": "4",
+          "folio_number": "N/A"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.454031Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: BSE",
+          "skipped_comparisons": [
+            "MOBILE_COMPARISON_SKIPPED",
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "STATUS_MISMATCH",
+        "pan": "AHYPD2463R",
+        "field_name": "investor_status",
+        "crm_value": "ACTIVE",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "bse_real_test.xlsx",
+          "file_id": "37cb19fe-a708-4867-91d1-d77a8995a457",
+          "raw_row_index": "5",
+          "folio_number": "N/A"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.454405Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: BSE",
+          "skipped_comparisons": [
+            "MOBILE_COMPARISON_SKIPPED",
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "KYC_MISMATCH",
+        "pan": "AHYPD2463R",
+        "field_name": "kyc_status",
+        "crm_value": "VERIFIED",
+        "report_value": "PENDING",
+        "severity": "MEDIUM",
+        "explanation": "Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'PENDING'.",
+        "source_info": {
+          "file_name": "bse_real_test.xlsx",
+          "file_id": "37cb19fe-a708-4867-91d1-d77a8995a457",
+          "raw_row_index": "5",
+          "folio_number": "N/A"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.454405Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: BSE",
+          "skipped_comparisons": [
+            "MOBILE_COMPARISON_SKIPPED",
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "FATCA_MISMATCH",
+        "pan": "AHYPD2463R",
+        "field_name": "fatca_status",
+        "crm_value": "COMPLIANT",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "bse_real_test.xlsx",
+          "file_id": "37cb19fe-a708-4867-91d1-d77a8995a457",
+          "raw_row_index": "5",
+          "folio_number": "N/A"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.454405Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: BSE",
+          "skipped_comparisons": [
+            "MOBILE_COMPARISON_SKIPPED",
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "FATCA_MISMATCH",
+        "pan": "ANUPM8373M",
+        "field_name": "fatca_status",
+        "crm_value": "COMPLIANT",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "bse_real_test.xlsx",
+          "file_id": "37cb19fe-a708-4867-91d1-d77a8995a457",
+          "raw_row_index": "9",
+          "folio_number": "N/A"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.454591Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: BSE",
+          "skipped_comparisons": [
+            "MOBILE_COMPARISON_SKIPPED",
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "STATUS_MISMATCH",
+        "pan": "IGOPM2504R",
+        "field_name": "investor_status",
+        "crm_value": "ACTIVE",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "bse_real_test.xlsx",
+          "file_id": "37cb19fe-a708-4867-91d1-d77a8995a457",
+          "raw_row_index": "10",
+          "folio_number": "N/A"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.454730Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: BSE",
+          "skipped_comparisons": [
+            "MOBILE_COMPARISON_SKIPPED",
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "FATCA_MISMATCH",
+        "pan": "IGOPM2504R",
+        "field_name": "fatca_status",
+        "crm_value": "COMPLIANT",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "bse_real_test.xlsx",
+          "file_id": "37cb19fe-a708-4867-91d1-d77a8995a457",
+          "raw_row_index": "10",
+          "folio_number": "N/A"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.454730Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: BSE",
+          "skipped_comparisons": [
+            "MOBILE_COMPARISON_SKIPPED",
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "STATUS_MISMATCH",
+        "pan": "AMZPM3033A",
+        "field_name": "investor_status",
+        "crm_value": "ACTIVE",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "cams_real_test.xlsx",
+          "file_id": "f29e6d83-473d-4b02-a568-f62daf18eb2e",
+          "raw_row_index": "3",
+          "folio_number": "FAMZPCA01"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.455033Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: CAMS",
+          "skipped_comparisons": [
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "NAME_MISMATCH",
+        "pan": "ANUPM8373M",
+        "field_name": "investor_name",
+        "crm_value": "DHIRAJ MOHANLAL MODI",
+        "report_value": "DHIRAJ M MODI",
+        "severity": "HIGH",
+        "explanation": "Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ M MODI'.",
+        "source_info": {
+          "file_name": "cams_real_test.xlsx",
+          "file_id": "f29e6d83-473d-4b02-a568-f62daf18eb2e",
+          "raw_row_index": "4",
+          "folio_number": "FANUPCAMS02"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.455215Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: CAMS",
+          "skipped_comparisons": [
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "STATUS_MISMATCH",
+        "pan": "AHYPD2463R",
+        "field_name": "investor_status",
+        "crm_value": "ACTIVE",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "cams_real_test.xlsx",
+          "file_id": "f29e6d83-473d-4b02-a568-f62daf18eb2e",
+          "raw_row_index": "6",
+          "folio_number": "FAHYPCA01"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.455492Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: CAMS",
+          "skipped_comparisons": [
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "MISSING_IN_CRM",
+        "pan": "BBZXY1234C",
+        "field_name": null,
+        "crm_value": null,
+        "report_value": null,
+        "severity": "CRITICAL",
+        "explanation": "Record with PAN 'BBZXY1234C' and Folio 'FBBZCAMS06' is missing in CRM database.",
+        "source_info": {
+          "file_name": "cams_real_test.xlsx",
+          "file_id": "f29e6d83-473d-4b02-a568-f62daf18eb2e",
+          "raw_row_index": "7",
+          "folio_number": "FBBZCAMS06"
+        },
+        "audit_trace": {
+          "matching_route": "UNMATCHED",
+          "match_confidence": 0.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.452377Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: CAMS",
+          "skipped_comparisons": []
+        }
+      },
+      {
+        "discrepancy_type": "MOBILE_MISMATCH",
+        "pan": "AMZPM3033A",
+        "field_name": "mobile",
+        "crm_value": "9819903349",
+        "report_value": "9011223344",
+        "severity": "MEDIUM",
+        "explanation": "Mobile mismatch detected. CRM value '9819903349' differs from Report value '9011223344'.",
+        "source_info": {
+          "file_name": "cams_real_test.xlsx",
+          "file_id": "f29e6d83-473d-4b02-a568-f62daf18eb2e",
+          "raw_row_index": "8",
+          "folio_number": "FAMZPCAMS08"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.455660Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: CAMS",
+          "skipped_comparisons": [
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "STATUS_MISMATCH",
+        "pan": "AMZPM3033A",
+        "field_name": "investor_status",
+        "crm_value": "ACTIVE",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "cams_real_test.xlsx",
+          "file_id": "f29e6d83-473d-4b02-a568-f62daf18eb2e",
+          "raw_row_index": "8",
+          "folio_number": "FAMZPCAMS08"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.455660Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: CAMS",
+          "skipped_comparisons": [
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "FATCA_MISMATCH",
+        "pan": "IGOPM2504R",
+        "field_name": "fatca_status",
+        "crm_value": "COMPLIANT",
+        "report_value": "NON_COMPLIANT",
+        "severity": "HIGH",
+        "explanation": "Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'NON_COMPLIANT'.",
+        "source_info": {
+          "file_name": "cams_real_test.xlsx",
+          "file_id": "f29e6d83-473d-4b02-a568-f62daf18eb2e",
+          "raw_row_index": "9",
+          "folio_number": "FIGOPFATCA11A"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.455841Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: CAMS",
+          "skipped_comparisons": [
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "STATUS_MISMATCH",
+        "pan": "IGOPM2504R",
+        "field_name": "investor_status",
+        "crm_value": "ACTIVE",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "cams_real_test.xlsx",
+          "file_id": "f29e6d83-473d-4b02-a568-f62daf18eb2e",
+          "raw_row_index": "9",
+          "folio_number": "FIGOPFATCA11A"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.455841Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: CAMS",
+          "skipped_comparisons": [
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "STATUS_MISMATCH",
+        "pan": "AJSPM7675A",
+        "field_name": "investor_status",
+        "crm_value": "ACTIVE",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "cams_real_test.xlsx",
+          "file_id": "f29e6d83-473d-4b02-a568-f62daf18eb2e",
+          "raw_row_index": "10",
+          "folio_number": "FAJSPDUPX12"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.455994Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: CAMS",
+          "skipped_comparisons": [
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "STATUS_MISMATCH",
+        "pan": "AHYPD2463A",
+        "field_name": "investor_status",
+        "crm_value": "ACTIVE",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "cams_real_test.xlsx",
+          "file_id": "f29e6d83-473d-4b02-a568-f62daf18eb2e",
+          "raw_row_index": "14",
+          "folio_number": "FAHYPCA01"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.456189Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: CAMS",
+          "skipped_comparisons": [
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "STATUS_MISMATCH",
+        "pan": "ABIPM4075A",
+        "field_name": "investor_status",
+        "crm_value": "ACTIVE",
+        "report_value": "UNKNOWN",
+        "severity": "HIGH",
+        "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+        "source_info": {
+          "file_name": "cams_real_test.xlsx",
+          "file_id": "f29e6d83-473d-4b02-a568-f62daf18eb2e",
+          "raw_row_index": "15",
+          "folio_number": "FABIPCA01"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.456318Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: CAMS",
+          "skipped_comparisons": [
+            "DATE_COMPARISON_SKIPPED"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "INCOMPLETE_CRM_RECORD",
+        "pan": "CMSPJ2820B",
+        "field_name": null,
+        "crm_value": null,
+        "report_value": null,
+        "severity": "MEDIUM",
+        "explanation": "CRM Record Client ID '12' with PAN 'CMSPJ2820B' is incomplete (missing contact info: mobile/email, and compliance status: KYC/FATCA) and is not present in processed reports.",
+        "source_info": {
+          "crm_client_id": "12"
+        },
+        "audit_trace": {
+          "matching_route": "UNMATCHED",
+          "match_confidence": 0.0,
+          "evaluation_timestamp": "2026-07-04T08:47:35.452377Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "CRM Master List",
+          "skipped_comparisons": []
+        }
+      }
+    ],
+    "matched_audits": [
+      {
+        "pan": "ABIPM4075A",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "BSE",
+        "timestamp": "2026-07-04T08:47:35.452377Z",
+        "skipped_comparisons": [
+          "MOBILE_COMPARISON_SKIPPED",
+          "DATE_COMPARISON_SKIPPED"
+        ]
+      },
+      {
+        "pan": "AJSPM7675A",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "BSE",
+        "timestamp": "2026-07-04T08:47:35.452377Z",
+        "skipped_comparisons": [
+          "MOBILE_COMPARISON_SKIPPED",
+          "DATE_COMPARISON_SKIPPED"
+        ]
+      },
+      {
+        "pan": "AAIHD8153P",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "BSE",
+        "timestamp": "2026-07-04T08:47:35.452377Z",
+        "skipped_comparisons": [
+          "MOBILE_COMPARISON_SKIPPED",
+          "DATE_COMPARISON_SKIPPED"
+        ]
+      },
+      {
+        "pan": "AHYPD2463R",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "BSE",
+        "timestamp": "2026-07-04T08:47:35.452377Z",
+        "skipped_comparisons": [
+          "MOBILE_COMPARISON_SKIPPED",
+          "DATE_COMPARISON_SKIPPED"
+        ]
+      },
+      {
+        "pan": "ANUPM8373M",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "BSE",
+        "timestamp": "2026-07-04T08:47:35.452377Z",
+        "skipped_comparisons": [
+          "MOBILE_COMPARISON_SKIPPED",
+          "DATE_COMPARISON_SKIPPED"
+        ]
+      },
+      {
+        "pan": "IGOPM2504R",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "BSE",
+        "timestamp": "2026-07-04T08:47:35.452377Z",
+        "skipped_comparisons": [
+          "MOBILE_COMPARISON_SKIPPED",
+          "DATE_COMPARISON_SKIPPED"
+        ]
+      },
+      {
+        "pan": "ANUPM8373M",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "CAMS",
+        "timestamp": "2026-07-04T08:47:35.452377Z",
+        "skipped_comparisons": [
+          "DATE_COMPARISON_SKIPPED"
+        ]
+      },
+      {
+        "pan": "AMZPM3033A",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "CAMS",
+        "timestamp": "2026-07-04T08:47:35.452377Z",
+        "skipped_comparisons": [
+          "DATE_COMPARISON_SKIPPED"
+        ]
+      },
+      {
+        "pan": "ANUPM8373M",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "CAMS",
+        "timestamp": "2026-07-04T08:47:35.452377Z",
+        "skipped_comparisons": [
+          "DATE_COMPARISON_SKIPPED"
+        ]
+      },
+      {
+        "pan": "ANUPM8373M",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "CAMS",
+        "timestamp": "2026-07-04T08:47:35.452377Z",
+        "skipped_comparisons": [
+          "DATE_COMPARISON_SKIPPED"
+        ]
+      },
+      {
+        "pan": "AHYPD2463R",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "CAMS",
+        "timestamp": "2026-07-04T08:47:35.452377Z",
+        "skipped_comparisons": [
+          "DATE_COMPARISON_SKIPPED"
+        ]
+      },
+      {
+        "pan": "AMZPM3033A",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "CAMS",
+        "timestamp": "2026-07-04T08:47:35.452377Z",
+        "skipped_comparisons": [
+          "DATE_COMPARISON_SKIPPED"
+        ]
+      },
+      {
+        "pan": "IGOPM2504R",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "CAMS",
+        "timestamp": "2026-07-04T08:47:35.452377Z",
+        "skipped_comparisons": [
+          "DATE_COMPARISON_SKIPPED"
+        ]
+      },
+      {
+        "pan": "AJSPM7675A",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "CAMS",
+        "timestamp": "2026-07-04T08:47:35.452377Z",
+        "skipped_comparisons": [
+          "DATE_COMPARISON_SKIPPED"
+        ]
+      },
+      {
+        "pan": "AHYPD2463A",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "CAMS",
+        "timestamp": "2026-07-04T08:47:35.452377Z",
+        "skipped_comparisons": [
+          "DATE_COMPARISON_SKIPPED"
+        ]
+      },
+      {
+        "pan": "ABIPM4075A",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "CAMS",
+        "timestamp": "2026-07-04T08:47:35.452377Z",
+        "skipped_comparisons": [
+          "DATE_COMPARISON_SKIPPED"
+        ]
+      }
+    ],
+    "download_urls": {
+      "excel": "/api/reports/f6d3ff2a-170c-4540-ad09-6251ffa520c6/excel",
+      "csv": "/api/reports/f6d3ff2a-170c-4540-ad09-6251ffa520c6/csv",
+      "json": "/api/reports/f6d3ff2a-170c-4540-ad09-6251ffa520c6/json"
+    },
+    "run_id": "RUN-027"
+  }
+}

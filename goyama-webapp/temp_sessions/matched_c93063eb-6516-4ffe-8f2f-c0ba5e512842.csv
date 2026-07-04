@@ -1,0 +1,4 @@
+pan,investor_name,mobile,email,kyc_status,fatca_status,investor_status,last_transaction_date,total_amount,crm_client_id,report_source,report_folio,report_raw_row_index
+ABCDE1234F,RAMESH SHARMA,9876543210,ramesh@gmail.com,VERIFIED,COMPLIANT,ACTIVE,,75000.5,CRM_01,INSURANCE,INS/999888,2
+ABCDE1234F,RAMESH SHARMA,9876543210,ramesh@gmail.com,VERIFIED,COMPLIANT,ACTIVE,,75000.5,CRM_01,BSE,,2
+CMSPJ2820B,INCOMPLETE CRM INVESTOR,,,UNKNOWN,UNKNOWN,UNKNOWN,,0.0,CMSPJ2820B,PDF_CAS,77711526233,2

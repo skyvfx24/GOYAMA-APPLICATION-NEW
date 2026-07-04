@@ -1,0 +1,5 @@
+discrepancy_type,pan,field_name,crm_value,report_value,severity,explanation,file_name,raw_row_index,folio_number
+MISSING_IN_CRM,ANUPM8373M,,,,CRITICAL,Record with PAN 'ANUPM8373M' and Folio '7771215065' is missing in CRM database.,DHIRAJ MODI SOA BAJAJ.pdf,3,7771215065
+MISSING_IN_CRM,ANUPM8373M,,,,CRITICAL,Record with PAN 'ANUPM8373M' and Folio '91076870015' is missing in CRM database.,DHIRAJ MODI SOA.pdf,1,91076870015
+MISSING_IN_CRM,ANUPM8373M,,,,CRITICAL,Record with PAN 'ANUPM8373M' and Folio 'None' is missing in CRM database.,DHIRAJ MODI SOA.pdf,7,N/A
+MISSING_IN_REPORT,ABIPM4075A,,,,HIGH,CRM Client ID '806' with PAN 'ABIPM4075A' is missing in the processed report files.,N/A,N/A,N/A

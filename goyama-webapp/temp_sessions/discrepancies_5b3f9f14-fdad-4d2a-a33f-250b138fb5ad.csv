@@ -1,0 +1,6 @@
+discrepancy_type,pan,field_name,crm_value,report_value,severity,explanation,file_name,raw_row_index,folio_number
+MISSING_IN_REPORT,ABCDE1234F,,,,HIGH,CRM Client ID 'CRM_01' with PAN 'ABCDE1234F' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,MNOPE9999A,,,,HIGH,CRM Client ID 'CRM_03' with PAN 'MNOPE9999A' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,DEFGH4444X,,,,HIGH,CRM Client ID 'CRM_04' with PAN 'DEFGH4444X' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,JKLMN3333Z,,,,HIGH,CRM Client ID 'CRM_05' with PAN 'JKLMN3333Z' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,CMSPJ2820B,,,,HIGH,CRM Client ID 'CMSPJ2820B' with PAN 'CMSPJ2820B' is missing in the processed report files.,N/A,N/A,N/A

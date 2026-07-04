@@ -1,0 +1,13 @@
+discrepancy_type,pan,field_name,crm_value,report_value,severity,explanation,file_name,raw_row_index,folio_number
+EMAIL_MISMATCH,AAIHD8153P,email,dhiraj.modi@hotmail.com,dhiraj.wrong@icici.com,MEDIUM,Email mismatch detected. CRM value 'dhiraj.modi@hotmail.com' differs from Report value 'dhiraj.wrong@icici.com'.,N/A,4,N/A
+STATUS_MISMATCH,AMZPM3033A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,N/A,3,FAMZPCA01
+NAME_MISMATCH,ANUPM8373M,investor_name,DHIRAJ MOHANLAL MODI,DHIRAJ M MODI,HIGH,Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ M MODI'.,N/A,4,FANUPCAMS02
+STATUS_MISMATCH,AHYPD2463R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,N/A,6,FAHYPCA01
+MISSING_IN_CRM,BBZXY1234C,,,,CRITICAL,Record with PAN 'BBZXY1234C' and Folio 'FBBZCAMS06' is missing in CRM database.,N/A,7,FBBZCAMS06
+MOBILE_MISMATCH,AMZPM3033A,mobile,9819903349,9011223344,MEDIUM,Mobile mismatch detected. CRM value '9819903349' differs from Report value '9011223344'.,N/A,8,FAMZPCAMS08
+STATUS_MISMATCH,AMZPM3033A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,N/A,8,FAMZPCAMS08
+STATUS_MISMATCH,IGOPM2504R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,N/A,9,FIGOPFATCA11A
+STATUS_MISMATCH,AJSPM7675A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,N/A,10,FAJSPDUPX12
+STATUS_MISMATCH,AHYPD2463A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,N/A,14,FAHYPCA01
+STATUS_MISMATCH,ABIPM4075A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,N/A,15,FABIPCA01
+MISSING_IN_REPORT,CMSPJ2820B,,,,HIGH,CRM Client ID '12' with PAN 'CMSPJ2820B' is missing in the processed report files.,N/A,N/A,N/A

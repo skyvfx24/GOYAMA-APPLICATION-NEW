@@ -1,0 +1,250 @@
+{
+    "statistics": {
+        "total_crm_records": 8,
+        "total_report_records": 29,
+        "matched_records": 1,
+        "missing_in_crm": 2,
+        "missing_in_report": 6,
+        "field_discrepancies": 2,
+        "validation_failures": 27
+    },
+    "discrepancies": [
+        {
+            "discrepancy_type": "MISSING_IN_CRM",
+            "pan": "XXXXX8373M",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "CRITICAL",
+            "explanation": "Record with PAN 'XXXXX8373M' and Folio '2100318' is missing in CRM database.",
+            "source_info": {
+                "file_name": "Dhiraj Modi-Bandhan.pdf",
+                "raw_row_index": "1",
+                "folio_number": "2100318"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-27T10:51:16.347090Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: PDF_CAS",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_CRM",
+            "pan": "XXXXX8373M",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "CRITICAL",
+            "explanation": "Record with PAN 'XXXXX8373M' and Folio 'None' is missing in CRM database.",
+            "source_info": {
+                "file_name": "Dhiraj Modi-Bandhan.pdf",
+                "raw_row_index": "7",
+                "folio_number": "N/A"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-27T10:51:16.347090Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: PDF_CAS",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "NAME_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "investor_name",
+            "crm_value": "DHIRAJ MOHANLAL MODI",
+            "report_value": "DATE",
+            "severity": "HIGH",
+            "explanation": "Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DATE'.",
+            "source_info": {
+                "file_name": "Dhiraj Modi-DSP.pdf",
+                "raw_row_index": "2",
+                "folio_number": "N/A"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-06-27T10:51:16.349279Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: PDF_CAS",
+                "skipped_comparisons": [
+                    "EMAIL_COMPARISON_SKIPPED",
+                    "KYC_COMPARISON_SKIPPED",
+                    "FATCA_COMPARISON_SKIPPED",
+                    "STATUS_COMPARISON_SKIPPED",
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MOBILE_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "mobile",
+            "crm_value": "9833708075",
+            "report_value": null,
+            "severity": "MEDIUM",
+            "explanation": "Mobile mismatch detected. CRM value '9833708075' differs from Report value 'None'.",
+            "source_info": {
+                "file_name": "Dhiraj Modi-DSP.pdf",
+                "raw_row_index": "2",
+                "folio_number": "N/A"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-06-27T10:51:16.349279Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: PDF_CAS",
+                "skipped_comparisons": [
+                    "EMAIL_COMPARISON_SKIPPED",
+                    "KYC_COMPARISON_SKIPPED",
+                    "FATCA_COMPARISON_SKIPPED",
+                    "STATUS_COMPARISON_SKIPPED",
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "AHYPD2463R",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID '37' with PAN 'AHYPD2463R' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "37"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-27T10:51:16.347090Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "AMZPM3033A",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID '346' with PAN 'AMZPM3033A' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "346"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-27T10:51:16.347090Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "AJSPM7675A",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID '482' with PAN 'AJSPM7675A' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "482"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-27T10:51:16.347090Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "IGOPM2504R",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID '641' with PAN 'IGOPM2504R' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "641"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-27T10:51:16.347090Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "AAIHD8153P",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID '974' with PAN 'AAIHD8153P' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "974"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-27T10:51:16.347090Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "ABIPM4075A",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID '806' with PAN 'ABIPM4075A' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "806"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-27T10:51:16.347090Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        }
+    ],
+    "failed_files": [],
+    "matched_audits": [
+        {
+            "pan": "ANUPM8373M",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "PDF_CAS",
+            "timestamp": "2026-06-27T10:51:16.347090Z",
+            "skipped_comparisons": [
+                "EMAIL_COMPARISON_SKIPPED",
+                "KYC_COMPARISON_SKIPPED",
+                "FATCA_COMPARISON_SKIPPED",
+                "STATUS_COMPARISON_SKIPPED",
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,2 @@
+file_name,source,failure_type,message
+CAMS RTA.xls,CAMS,PARSER_ERROR,"Missing required columns: PAN, Investor Name"

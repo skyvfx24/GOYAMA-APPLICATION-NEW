@@ -1,0 +1,4 @@
+file_name,source,failure_type,message
+kfintech_real_test.xlsx,KFINTECH,PARSER_ERROR,Missing required columns: Investor Name
+nse_real_test.xlsx,NSE,PARSER_ERROR,Missing required columns: Investor Name
+test_scenarios.xlsx,UNKNOWN,PARSER_DETECTION_ERROR,Could not auto-detect report source for file: test_scenarios.xlsx

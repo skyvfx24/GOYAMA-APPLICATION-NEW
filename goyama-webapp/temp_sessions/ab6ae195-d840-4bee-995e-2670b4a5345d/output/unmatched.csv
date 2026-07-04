@@ -1,0 +1,7 @@
+record_type,pan,investor_name,mobile,email,kyc_status,fatca_status,investor_status,last_transaction_date,total_amount,crm_client_id,report_source,report_folio,report_raw_row_index
+CRM,AHYPD2463R,POOJA DHIRAJ MODI,9867065625,divyainvestment@outlook.com,UNKNOWN,UNKNOWN,ACTIVE,,0.00,37,,,
+CRM,AMZPM3033A,SONAL MANISH MODI,9819903349,manish_fic@yahoo.com,UNKNOWN,UNKNOWN,ACTIVE,,0.00,346,,,
+CRM,AJSPM7675A,MANISH MODI,9819903349,manish_fic@yahoo.com,UNKNOWN,UNKNOWN,ACTIVE,,0.00,482,,,
+CRM,IGOPM2504R,ARCHIT MANISH MODI,9819903349,manish_fic@yahoo.com,UNKNOWN,UNKNOWN,ACTIVE,,0.00,641,,,
+CRM,AAIHD8153P,DHIRAJ MOHANLAL MODI,9833708075,dhiraj.modi@hotmail.com,UNKNOWN,UNKNOWN,ACTIVE,,0.00,974,,,
+CRM,ABIPM4075A,MOHANLAL MODI,9819903349,manish_fic@yahoo.com,UNKNOWN,UNKNOWN,ACTIVE,,0.00,806,,,

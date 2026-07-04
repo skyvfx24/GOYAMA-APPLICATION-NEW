@@ -1,0 +1,13 @@
+discrepancy_type,pan,field_name,crm_value,report_value,severity,explanation,file_name,raw_row_index,folio_number
+AMOUNT_MISMATCH,JKLMN3333Z,total_amount,50000.0,48000.0,CRITICAL,Amount mismatch detected. CRM value 50000.00 differs from Report value 48000.00.,N/A,3,1122334/45
+AMOUNT_MISMATCH,ABCDE1234F,total_amount,75000.5,50000,CRITICAL,Amount mismatch detected. CRM value 75000.50 differs from Report value 50000.00.,N/A,2,N/A
+STATUS_MISMATCH,ABCDE1234F,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,N/A,2,N/A
+KYC_MISMATCH,ABCDE1234F,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,N/A,2,N/A
+FATCA_MISMATCH,ABCDE1234F,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,N/A,2,N/A
+MISSING_IN_CRM,TUVWX1111Y,,,,CRITICAL,Record with PAN 'TUVWX1111Y' and Folio 'None' is missing in CRM database.,N/A,3,N/A
+NAME_MISMATCH,DEFGH4444X,investor_name,ROHIT GUPTA,ROHIT KUMAR GUPTA,HIGH,Investor Name mismatch detected. CRM value 'ROHIT GUPTA' differs from Report value 'ROHIT KUMAR GUPTA'.,N/A,2,N/A
+STATUS_MISMATCH,DEFGH4444X,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,N/A,2,N/A
+KYC_MISMATCH,DEFGH4444X,kyc_status,EXEMPT,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'EXEMPT' differs from Report value 'UNKNOWN'.,N/A,2,N/A
+FATCA_MISMATCH,DEFGH4444X,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,N/A,2,N/A
+NAME_MISMATCH,CMSPJ2820B,investor_name,INCOMPLETE CRM INVESTOR,AAKASH VIJAY JAMANIK,HIGH,Investor Name mismatch detected. CRM value 'INCOMPLETE CRM INVESTOR' differs from Report value 'AAKASH VIJAY JAMANIK'.,N/A,2,77711526233
+MISSING_IN_REPORT,MNOPE9999A,,,,HIGH,CRM Client ID 'CRM_03' with PAN 'MNOPE9999A' is missing in the processed report files.,N/A,N/A,N/A

@@ -1,0 +1,284 @@
+{
+  "run_id": "RUN-003",
+  "timestamp": "2026-06-13T18:32:26.782239Z",
+  "crm_filename": "crm data.xlsx - Customer Data.csv",
+  "report_count": 1,
+  "match_rate_percent": 20.0,
+  "discrepancy_count": 9,
+  "status": "success",
+  "result": {
+    "job_id": "7834fd08-7082-4e71-994c-41791b46be08",
+    "status": "done",
+    "summary": {
+      "total_crm_records": 10,
+      "matched_records": 2,
+      "missing_in_crm": 0,
+      "missing_in_report": 8,
+      "discrepancy_count": 9,
+      "failed_files": 0,
+      "match_rate_percent": 20.0
+    },
+    "failed_files": [],
+    "source_breakdown": {
+      "CAMS": {
+        "processed": 0,
+        "matched": 0,
+        "discrepancies": 0
+      },
+      "KFINTECH": {
+        "processed": 0,
+        "matched": 0,
+        "discrepancies": 0
+      },
+      "BSE": {
+        "processed": 0,
+        "matched": 0,
+        "discrepancies": 0
+      },
+      "NSE": {
+        "processed": 0,
+        "matched": 0,
+        "discrepancies": 0
+      },
+      "PDF_CAS": {
+        "processed": 1,
+        "matched": 1,
+        "discrepancies": 1
+      }
+    },
+    "pipeline_stages": [
+      {
+        "stage": "CRM Uploaded",
+        "status": "done"
+      },
+      {
+        "stage": "Reports Uploaded",
+        "status": "done"
+      },
+      {
+        "stage": "Validation",
+        "status": "done"
+      },
+      {
+        "stage": "Reconciliation",
+        "status": "done"
+      },
+      {
+        "stage": "Report Generation",
+        "status": "done"
+      }
+    ],
+    "discrepancies": [
+      {
+        "discrepancy_type": "NAME_MISMATCH",
+        "pan": "CMSPJ2820B",
+        "field_name": "investor_name",
+        "crm_value": "AKASH VIJAY JAMNIK",
+        "report_value": "AAKASH VIJAY JAMANIK",
+        "severity": "HIGH",
+        "explanation": "Investor Name mismatch detected. CRM value 'AKASH VIJAY JAMNIK' differs from Report value 'AAKASH VIJAY JAMANIK'.",
+        "source_info": {
+          "file_name": "N/A",
+          "raw_row_index": "2",
+          "folio_number": "77711526233"
+        },
+        "audit_trace": {
+          "matching_route": "EXACT_PAN",
+          "match_confidence": 1.0,
+          "evaluation_timestamp": "2026-06-13T18:32:26.281199Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "SourceProfile: PDF_CAS",
+          "skipped_comparisons": [
+            "email",
+            "kyc_status",
+            "fatca_status",
+            "investor_status",
+            "last_transaction_date"
+          ]
+        }
+      },
+      {
+        "discrepancy_type": "MISSING_IN_REPORT",
+        "pan": "AHYPD2463A",
+        "field_name": null,
+        "crm_value": null,
+        "report_value": null,
+        "severity": "HIGH",
+        "explanation": "CRM Client ID '17' with PAN 'AHYPD2463A' is missing in the processed report files.",
+        "source_info": {
+          "crm_client_id": "17"
+        },
+        "audit_trace": {
+          "matching_route": "UNMATCHED",
+          "match_confidence": 0.0,
+          "evaluation_timestamp": "2026-06-13T18:32:26.281104Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "CRM Master List",
+          "skipped_comparisons": []
+        }
+      },
+      {
+        "discrepancy_type": "MISSING_IN_REPORT",
+        "pan": "AHYPD2463R",
+        "field_name": null,
+        "crm_value": null,
+        "report_value": null,
+        "severity": "HIGH",
+        "explanation": "CRM Client ID '37' with PAN 'AHYPD2463R' is missing in the processed report files.",
+        "source_info": {
+          "crm_client_id": "37"
+        },
+        "audit_trace": {
+          "matching_route": "UNMATCHED",
+          "match_confidence": 0.0,
+          "evaluation_timestamp": "2026-06-13T18:32:26.281104Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "CRM Master List",
+          "skipped_comparisons": []
+        }
+      },
+      {
+        "discrepancy_type": "MISSING_IN_REPORT",
+        "pan": "ANUPM8373M",
+        "field_name": null,
+        "crm_value": null,
+        "report_value": null,
+        "severity": "HIGH",
+        "explanation": "CRM Client ID '78' with PAN 'ANUPM8373M' is missing in the processed report files.",
+        "source_info": {
+          "crm_client_id": "78"
+        },
+        "audit_trace": {
+          "matching_route": "UNMATCHED",
+          "match_confidence": 0.0,
+          "evaluation_timestamp": "2026-06-13T18:32:26.281104Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "CRM Master List",
+          "skipped_comparisons": []
+        }
+      },
+      {
+        "discrepancy_type": "MISSING_IN_REPORT",
+        "pan": "AMZPM3033A",
+        "field_name": null,
+        "crm_value": null,
+        "report_value": null,
+        "severity": "HIGH",
+        "explanation": "CRM Client ID '346' with PAN 'AMZPM3033A' is missing in the processed report files.",
+        "source_info": {
+          "crm_client_id": "346"
+        },
+        "audit_trace": {
+          "matching_route": "UNMATCHED",
+          "match_confidence": 0.0,
+          "evaluation_timestamp": "2026-06-13T18:32:26.281104Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "CRM Master List",
+          "skipped_comparisons": []
+        }
+      },
+      {
+        "discrepancy_type": "MISSING_IN_REPORT",
+        "pan": "AJSPM7675A",
+        "field_name": null,
+        "crm_value": null,
+        "report_value": null,
+        "severity": "HIGH",
+        "explanation": "CRM Client ID '482' with PAN 'AJSPM7675A' is missing in the processed report files.",
+        "source_info": {
+          "crm_client_id": "482"
+        },
+        "audit_trace": {
+          "matching_route": "UNMATCHED",
+          "match_confidence": 0.0,
+          "evaluation_timestamp": "2026-06-13T18:32:26.281104Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "CRM Master List",
+          "skipped_comparisons": []
+        }
+      },
+      {
+        "discrepancy_type": "MISSING_IN_REPORT",
+        "pan": "IGOPM2504R",
+        "field_name": null,
+        "crm_value": null,
+        "report_value": null,
+        "severity": "HIGH",
+        "explanation": "CRM Client ID '641' with PAN 'IGOPM2504R' is missing in the processed report files.",
+        "source_info": {
+          "crm_client_id": "641"
+        },
+        "audit_trace": {
+          "matching_route": "UNMATCHED",
+          "match_confidence": 0.0,
+          "evaluation_timestamp": "2026-06-13T18:32:26.281104Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "CRM Master List",
+          "skipped_comparisons": []
+        }
+      },
+      {
+        "discrepancy_type": "MISSING_IN_REPORT",
+        "pan": "AAIHD8153P",
+        "field_name": null,
+        "crm_value": null,
+        "report_value": null,
+        "severity": "HIGH",
+        "explanation": "CRM Client ID '974' with PAN 'AAIHD8153P' is missing in the processed report files.",
+        "source_info": {
+          "crm_client_id": "974"
+        },
+        "audit_trace": {
+          "matching_route": "UNMATCHED",
+          "match_confidence": 0.0,
+          "evaluation_timestamp": "2026-06-13T18:32:26.281104Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "CRM Master List",
+          "skipped_comparisons": []
+        }
+      },
+      {
+        "discrepancy_type": "MISSING_IN_REPORT",
+        "pan": "ABIPM4075A",
+        "field_name": null,
+        "crm_value": null,
+        "report_value": null,
+        "severity": "HIGH",
+        "explanation": "CRM Client ID '806' with PAN 'ABIPM4075A' is missing in the processed report files.",
+        "source_info": {
+          "crm_client_id": "806"
+        },
+        "audit_trace": {
+          "matching_route": "UNMATCHED",
+          "match_confidence": 0.0,
+          "evaluation_timestamp": "2026-06-13T18:32:26.281104Z",
+          "reconciler_version": "1.0.0",
+          "rule_evaluated": "CRM Master List",
+          "skipped_comparisons": []
+        }
+      }
+    ],
+    "matched_audits": [
+      {
+        "pan": "CMSPJ2820B",
+        "route": "EXACT_PAN",
+        "confidence": 1.0,
+        "source": "PDF_CAS",
+        "timestamp": "2026-06-13T18:32:26.281104Z",
+        "skipped_comparisons": [
+          "email",
+          "kyc_status",
+          "fatca_status",
+          "investor_status",
+          "last_transaction_date"
+        ]
+      }
+    ],
+    "download_urls": {
+      "excel": "/api/reports/7834fd08-7082-4e71-994c-41791b46be08/excel",
+      "csv": "/api/reports/7834fd08-7082-4e71-994c-41791b46be08/csv",
+      "json": "/api/reports/7834fd08-7082-4e71-994c-41791b46be08/json"
+    },
+    "run_id": "RUN-003"
+  }
+}

@@ -1,0 +1,29 @@
+discrepancy_type,pan,field_name,crm_value,report_value,severity,explanation,file_name,raw_row_index,folio_number
+EMAIL_MISMATCH,AAIHD8153P,email,dhiraj.modi@hotmail.com,dhiraj.wrong@icici.com,MEDIUM,Email mismatch detected. CRM value 'dhiraj.modi@hotmail.com' differs from Report value 'dhiraj.wrong@icici.com'.,N/A,4,N/A
+FATCA_MISMATCH,AAIHD8153P,fatca_status,PENDING,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'PENDING' differs from Report value 'UNKNOWN'.,N/A,4,N/A
+NAME_MISMATCH,ANUPM8373M,investor_name,DHIRAJ MOHANLAL MODI,DHIRAJ M MODI,HIGH,Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ M MODI'.,N/A,4,FANUPCAMS02
+MOBILE_MISMATCH,AMZPM3033A,mobile,9819903349,9011223344,MEDIUM,Mobile mismatch detected. CRM value '9819903349' differs from Report value '9011223344'.,N/A,8,FAMZPCAMS08
+MISSING_IN_REPORT,ANUPM8373M,,,,HIGH,CRM Client ID 'AUTO_GEN_c81e728d' with PAN 'ANUPM8373M' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,ANUPM8373M,,,,HIGH,CRM Client ID 'AUTO_GEN_eccbc87e' with PAN 'ANUPM8373M' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AMZPM3033A,,,,HIGH,CRM Client ID 'AUTO_GEN_1679091c' with PAN 'AMZPM3033A' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AJSPM7675A,,,,HIGH,CRM Client ID 'AUTO_GEN_c51ce410' with PAN 'AJSPM7675A' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,IGOPM2504R,,,,HIGH,CRM Client ID 'AUTO_GEN_aab32389' with PAN 'IGOPM2504R' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AMZPM3033A,,,,HIGH,CRM Client ID 'AUTO_GEN_9bf31c7f' with PAN 'AMZPM3033A' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,CCPQR5678D,,,,HIGH,CRM Client ID 'AUTO_GEN_70efdf2e' with PAN 'CCPQR5678D' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,ABIPM4075A,,,,HIGH,CRM Client ID 'AUTO_GEN_6f4922f4' with PAN 'ABIPM4075A' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AMZPM3033A,,,,HIGH,CRM Client ID 'AUTO_GEN_1f0e3dad' with PAN 'AMZPM3033A' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AHYPD2463R,,,,HIGH,CRM Client ID 'AUTO_GEN_b6d767d2' with PAN 'AHYPD2463R' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AAIHD8153P,,,,HIGH,CRM Client ID 'AUTO_GEN_37693cfc' with PAN 'AAIHD8153P' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,ABIPM4075A,,,,HIGH,CRM Client ID 'AUTO_GEN_1ff1de77' with PAN 'ABIPM4075A' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AJSPM7675A,,,,HIGH,CRM Client ID 'AUTO_GEN_8e296a06' with PAN 'AJSPM7675A' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AAIHD8153P,,,,HIGH,CRM Client ID 'AUTO_GEN_4e732ced' with PAN 'AAIHD8153P' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AHYPD2463R,,,,HIGH,CRM Client ID 'AUTO_GEN_02e74f10' with PAN 'AHYPD2463R' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AAIHD8153P,,,,HIGH,CRM Client ID 'AUTO_GEN_33e75ff0' with PAN 'AAIHD8153P' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,ANUPM8373M,,,,HIGH,CRM Client ID 'AUTO_GEN_34173cb3' with PAN 'ANUPM8373M' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,IGOPM2504R,,,,HIGH,CRM Client ID 'AUTO_GEN_c16a5320' with PAN 'IGOPM2504R' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AJSPM7675A,,,,HIGH,CRM Client ID 'AUTO_GEN_6364d3f0' with PAN 'AJSPM7675A' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,ANUPM8373M,,,,HIGH,CRM Client ID 'AUTO_GEN_182be0c5' with PAN 'ANUPM8373M' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AMZPM3033A,,,,HIGH,CRM Client ID 'AUTO_GEN_1c383cd3' with PAN 'AMZPM3033A' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AJSPM7675A,,,,HIGH,CRM Client ID 'AUTO_GEN_19ca14e7' with PAN 'AJSPM7675A' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AHYPD2463A,,,,HIGH,CRM Client ID 'AUTO_GEN_a5bfc9e0' with PAN 'AHYPD2463A' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AHYPD2463R,,,,HIGH,CRM Client ID 'AUTO_GEN_a5771bce' with PAN 'AHYPD2463R' is missing in the processed report files.,N/A,N/A,N/A

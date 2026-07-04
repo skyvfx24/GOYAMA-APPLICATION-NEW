@@ -1,0 +1,119 @@
+discrepancy_type,pan,field_name,crm_value,report_value,severity,explanation,file_name,raw_row_index,folio_number
+KYC_MISMATCH,AJSPM7675A,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,2,17722568644
+FATCA_MISMATCH,AJSPM7675A,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,2,17722568644
+STATUS_MISMATCH,AJSPM7675A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,2,17722568644
+KYC_MISMATCH,AJSPM7675A,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,3,17723997703
+FATCA_MISMATCH,AJSPM7675A,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,3,17723997703
+STATUS_MISMATCH,AJSPM7675A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,3,17723997703
+KYC_MISMATCH,AJSPM7675A,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,4,17724992174
+FATCA_MISMATCH,AJSPM7675A,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,4,17724992174
+STATUS_MISMATCH,AJSPM7675A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,4,17724992174
+NAME_MISMATCH,ANUPM8373M,investor_name,DHIRAJ MOHANLAL MODI,DHIRAJ MODI,HIGH,Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI'.,KARVI.xlsx,5,17723888184
+MOBILE_MISMATCH,ANUPM8373M,mobile,9833708075,9867065625,MEDIUM,Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.,KARVI.xlsx,5,17723888184
+EMAIL_MISMATCH,ANUPM8373M,email,dhiraj.modi@goyamafinserv.com,divyainvestment@outlook.com,MEDIUM,Email mismatch detected. CRM value 'dhiraj.modi@goyamafinserv.com' differs from Report value 'divyainvestment@outlook.com'.,KARVI.xlsx,5,17723888184
+KYC_MISMATCH,ANUPM8373M,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,5,17723888184
+FATCA_MISMATCH,ANUPM8373M,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,5,17723888184
+KYC_MISMATCH,AHYPD2463R,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,6,17721742596
+FATCA_MISMATCH,AHYPD2463R,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,6,17721742596
+STATUS_MISMATCH,AHYPD2463R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,6,17721742596
+KYC_MISMATCH,AHYPD2463R,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,8,17748847355
+FATCA_MISMATCH,AHYPD2463R,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,8,17748847355
+STATUS_MISMATCH,AHYPD2463R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,8,17748847355
+NAME_MISMATCH,ANUPM8373M,investor_name,DHIRAJ MOHANLAL MODI,DHIRAJ MODI,HIGH,Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI'.,KARVI.xlsx,11,577342093761
+MOBILE_MISMATCH,ANUPM8373M,mobile,9833708075,9867065625,MEDIUM,Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.,KARVI.xlsx,11,577342093761
+EMAIL_MISMATCH,ANUPM8373M,email,dhiraj.modi@goyamafinserv.com,divyainvestment@outlook.com,MEDIUM,Email mismatch detected. CRM value 'dhiraj.modi@goyamafinserv.com' differs from Report value 'divyainvestment@outlook.com'.,KARVI.xlsx,11,577342093761
+KYC_MISMATCH,ANUPM8373M,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,11,577342093761
+FATCA_MISMATCH,ANUPM8373M,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,11,577342093761
+MOBILE_MISMATCH,ANUPM8373M,mobile,9833708075,9867065625,MEDIUM,Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.,KARVI.xlsx,12,77526960274
+EMAIL_MISMATCH,ANUPM8373M,email,dhiraj.modi@goyamafinserv.com,divyainvestment@outlook.com,MEDIUM,Email mismatch detected. CRM value 'dhiraj.modi@goyamafinserv.com' differs from Report value 'divyainvestment@outlook.com'.,KARVI.xlsx,12,77526960274
+KYC_MISMATCH,ANUPM8373M,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,12,77526960274
+FATCA_MISMATCH,ANUPM8373M,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,12,77526960274
+KYC_MISMATCH,AHYPD2463R,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,13,77722336712
+FATCA_MISMATCH,AHYPD2463R,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,13,77722336712
+STATUS_MISMATCH,AHYPD2463R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,13,77722336712
+KYC_MISMATCH,AJSPM7675A,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,14,77723637426
+FATCA_MISMATCH,AJSPM7675A,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,14,77723637426
+STATUS_MISMATCH,AJSPM7675A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,14,77723637426
+NAME_MISMATCH,ANUPM8373M,investor_name,DHIRAJ MOHANLAL MODI,DHIRAJ MODI,HIGH,Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI'.,KARVI.xlsx,22,91013745665
+MOBILE_MISMATCH,ANUPM8373M,mobile,9833708075,9867065625,MEDIUM,Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.,KARVI.xlsx,22,91013745665
+EMAIL_MISMATCH,ANUPM8373M,email,dhiraj.modi@goyamafinserv.com,divyainvestment@outlook.com,MEDIUM,Email mismatch detected. CRM value 'dhiraj.modi@goyamafinserv.com' differs from Report value 'divyainvestment@outlook.com'.,KARVI.xlsx,22,91013745665
+KYC_MISMATCH,ANUPM8373M,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,22,91013745665
+FATCA_MISMATCH,ANUPM8373M,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,22,91013745665
+KYC_MISMATCH,AHYPD2463R,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,23,9106288762
+FATCA_MISMATCH,AHYPD2463R,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,23,9106288762
+STATUS_MISMATCH,AHYPD2463R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,23,9106288762
+KYC_MISMATCH,AJSPM7675A,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,24,9107272395
+FATCA_MISMATCH,AJSPM7675A,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,24,9107272395
+STATUS_MISMATCH,AJSPM7675A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,24,9107272395
+KYC_MISMATCH,AHYPD2463R,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,26,3107660906
+FATCA_MISMATCH,AHYPD2463R,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,26,3107660906
+STATUS_MISMATCH,AHYPD2463R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,26,3107660906
+KYC_MISMATCH,AHYPD2463R,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,27,9107204064
+FATCA_MISMATCH,AHYPD2463R,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,27,9107204064
+STATUS_MISMATCH,AHYPD2463R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,27,9107204064
+NAME_MISMATCH,ANUPM8373M,investor_name,DHIRAJ MOHANLAL MODI,DHIRAJ MODI,HIGH,Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI'.,KARVI.xlsx,28,91018442454
+MOBILE_MISMATCH,ANUPM8373M,mobile,9833708075,9867065625,MEDIUM,Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.,KARVI.xlsx,28,91018442454
+EMAIL_MISMATCH,ANUPM8373M,email,dhiraj.modi@goyamafinserv.com,divyainvestment@outlook.com,MEDIUM,Email mismatch detected. CRM value 'dhiraj.modi@goyamafinserv.com' differs from Report value 'divyainvestment@outlook.com'.,KARVI.xlsx,28,91018442454
+KYC_MISMATCH,ANUPM8373M,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,28,91018442454
+FATCA_MISMATCH,ANUPM8373M,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,28,91018442454
+KYC_MISMATCH,AHYPD2463R,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,29,90413747966
+FATCA_MISMATCH,AHYPD2463R,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,29,90413747966
+STATUS_MISMATCH,AHYPD2463R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,29,90413747966
+KYC_MISMATCH,AJSPM7675A,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,30,90417902164
+FATCA_MISMATCH,AJSPM7675A,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,30,90417902164
+STATUS_MISMATCH,AJSPM7675A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,30,90417902164
+MISSING_IN_CRM,BKAPM3002M,,,,CRITICAL,Record with PAN 'BKAPM3002M' and Folio '910195756676' is missing in CRM database.,KARVI.xlsx,32,910195756676
+NAME_MISMATCH,ABIPM4075A,investor_name,MOHANLAL MODI,MOHAN LAL MODI,HIGH,Investor Name mismatch detected. CRM value 'MOHANLAL MODI' differs from Report value 'MOHAN LAL MODI'.,KARVI.xlsx,34,91098965985
+EMAIL_MISMATCH,ABIPM4075A,email,manish_fic@yahoo.com,manish_fic@yahoo.co.in,MEDIUM,Email mismatch detected. CRM value 'manish_fic@yahoo.com' differs from Report value 'manish_fic@yahoo.co.in'.,KARVI.xlsx,34,91098965985
+KYC_MISMATCH,ABIPM4075A,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,34,91098965985
+FATCA_MISMATCH,ABIPM4075A,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,34,91098965985
+STATUS_MISMATCH,ABIPM4075A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,34,91098965985
+NAME_MISMATCH,ABIPM4075A,investor_name,MOHANLAL MODI,MOHAN LAL MODI,HIGH,Investor Name mismatch detected. CRM value 'MOHANLAL MODI' differs from Report value 'MOHAN LAL MODI'.,KARVI.xlsx,35,910101790101
+KYC_MISMATCH,ABIPM4075A,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,35,910101790101
+FATCA_MISMATCH,ABIPM4075A,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,35,910101790101
+STATUS_MISMATCH,ABIPM4075A,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,35,910101790101
+KYC_MISMATCH,IGOPM2504R,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,36,910113199685
+FATCA_MISMATCH,IGOPM2504R,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,36,910113199685
+STATUS_MISMATCH,IGOPM2504R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,36,910113199685
+KYC_MISMATCH,AHYPD2463R,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,40,910108487071
+FATCA_MISMATCH,AHYPD2463R,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,40,910108487071
+STATUS_MISMATCH,AHYPD2463R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,40,910108487071
+NAME_MISMATCH,ANUPM8373M,investor_name,DHIRAJ MOHANLAL MODI,DHIRAJ MODI,HIGH,Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI'.,KARVI.xlsx,43,91076870015
+MOBILE_MISMATCH,ANUPM8373M,mobile,9833708075,9867065625,MEDIUM,Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.,KARVI.xlsx,43,91076870015
+EMAIL_MISMATCH,ANUPM8373M,email,dhiraj.modi@goyamafinserv.com,divyainvestment@outlook.com,MEDIUM,Email mismatch detected. CRM value 'dhiraj.modi@goyamafinserv.com' differs from Report value 'divyainvestment@outlook.com'.,KARVI.xlsx,43,91076870015
+KYC_MISMATCH,ANUPM8373M,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,43,91076870015
+FATCA_MISMATCH,ANUPM8373M,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,43,91076870015
+NAME_MISMATCH,ANUPM8373M,investor_name,DHIRAJ MOHANLAL MODI,DHIRAJ MODI,HIGH,Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI'.,KARVI.xlsx,46,7771215065
+MOBILE_MISMATCH,ANUPM8373M,mobile,9833708075,9867065625,MEDIUM,Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.,KARVI.xlsx,46,7771215065
+EMAIL_MISMATCH,ANUPM8373M,email,dhiraj.modi@goyamafinserv.com,divyainvestment@outlook.com,MEDIUM,Email mismatch detected. CRM value 'dhiraj.modi@goyamafinserv.com' differs from Report value 'divyainvestment@outlook.com'.,KARVI.xlsx,46,7771215065
+KYC_MISMATCH,ANUPM8373M,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,46,7771215065
+FATCA_MISMATCH,ANUPM8373M,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,46,7771215065
+KYC_MISMATCH,AHYPD2463R,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,47,7771630195
+FATCA_MISMATCH,AHYPD2463R,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,47,7771630195
+STATUS_MISMATCH,AHYPD2463R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,47,7771630195
+MISSING_IN_CRM,CMSPJ2820B,,,,CRITICAL,Record with PAN 'CMSPJ2820B' and Folio '77711526233' is missing in CRM database.,KARVI.xlsx,48,77711526233
+KYC_MISMATCH,AHYPD2463R,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,51,477321317222
+FATCA_MISMATCH,AHYPD2463R,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,51,477321317222
+STATUS_MISMATCH,AHYPD2463R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,51,477321317222
+MISSING_IN_CRM,BKAPM3002M,,,,CRITICAL,Record with PAN 'BKAPM3002M' and Folio '475384550996' is missing in CRM database.,KARVI.xlsx,52,475384550996
+KYC_MISMATCH,AHYPD2463R,kyc_status,VERIFIED,UNKNOWN,MEDIUM,Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.,KARVI.xlsx,53,477274143181
+FATCA_MISMATCH,AHYPD2463R,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,KARVI.xlsx,53,477274143181
+STATUS_MISMATCH,AHYPD2463R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,KARVI.xlsx,53,477274143181
+NAME_MISMATCH,ANUPM8373M,investor_name,DHIRAJ MOHANLAL MODI,DIVYA DHIRAJ MODI,HIGH,Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DIVYA DHIRAJ MODI'.,NSE SAmple file.xlsx,2,5013789484
+MOBILE_MISMATCH,ANUPM8373M,mobile,9833708075,9867065625,MEDIUM,Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.,NSE SAmple file.xlsx,2,5013789484
+EMAIL_MISMATCH,ANUPM8373M,email,dhiraj.modi@goyamafinserv.com,divyainvestment@outlook.com,MEDIUM,Email mismatch detected. CRM value 'dhiraj.modi@goyamafinserv.com' differs from Report value 'divyainvestment@outlook.com'.,NSE SAmple file.xlsx,2,5013789484
+FATCA_MISMATCH,ANUPM8373M,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,NSE SAmple file.xlsx,2,5013789484
+MOBILE_MISMATCH,ANUPM8373M,mobile,9833708075,9867065625,MEDIUM,Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.,NSE SAmple file.xlsx,3,5013780807
+EMAIL_MISMATCH,ANUPM8373M,email,dhiraj.modi@goyamafinserv.com,divyainvestment@outlook.com,MEDIUM,Email mismatch detected. CRM value 'dhiraj.modi@goyamafinserv.com' differs from Report value 'divyainvestment@outlook.com'.,NSE SAmple file.xlsx,3,5013780807
+FATCA_MISMATCH,ANUPM8373M,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,NSE SAmple file.xlsx,3,5013780807
+STATUS_MISMATCH,AHYPD2463R,investor_status,ACTIVE,UNKNOWN,HIGH,Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.,NSE SAmple file.xlsx,4,5013556606
+FATCA_MISMATCH,AHYPD2463R,fatca_status,COMPLIANT,UNKNOWN,HIGH,Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.,NSE SAmple file.xlsx,4,5013556606
+MISSING_IN_CRM,CMSPJ2820B,,,,CRITICAL,Record with PAN 'CMSPJ2820B' and Folio 'AAKASHVJ' is missing in CRM database.,NSE SAmple file.xlsx,5,AAKASHVJ
+NAME_MISMATCH,ANUPM8373M,investor_name,DHIRAJ MOHANLAL MODI,DHIRAJ MODI,HIGH,Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI'.,DHIRAJ MODI SOA BAJAJ.pdf,3,7771215065
+MOBILE_MISMATCH,ANUPM8373M,mobile,9833708075,,MEDIUM,Mobile mismatch detected. CRM value '9833708075' differs from Report value 'None'.,DHIRAJ MODI SOA BAJAJ.pdf,3,7771215065
+NAME_MISMATCH,ANUPM8373M,investor_name,DHIRAJ MOHANLAL MODI,DHIRAJ MODI STATEMENT DATE,HIGH,Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI STATEMENT DATE'.,DHIRAJ MODI SOA.pdf,1,91076870015
+MOBILE_MISMATCH,ANUPM8373M,mobile,9833708075,9867065625,MEDIUM,Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.,DHIRAJ MODI SOA.pdf,1,91076870015
+NAME_MISMATCH,ANUPM8373M,investor_name,DHIRAJ MOHANLAL MODI,DHIRAJ MODI CAN,HIGH,Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI CAN'.,DHIRAJ MODI SOA.pdf,7,N/A
+MOBILE_MISMATCH,ANUPM8373M,mobile,9833708075,,MEDIUM,Mobile mismatch detected. CRM value '9833708075' differs from Report value 'None'.,DHIRAJ MODI SOA.pdf,7,N/A
+MISSING_IN_REPORT,AMZPM3033A,,,,HIGH,CRM Client ID '346' with PAN 'AMZPM3033A' is missing in the processed report files.,N/A,N/A,N/A
+MISSING_IN_REPORT,AAIHD8153P,,,,HIGH,CRM Client ID '974' with PAN 'AAIHD8153P' is missing in the processed report files.,N/A,N/A,N/A

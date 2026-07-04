@@ -1,0 +1,115 @@
+{
+    "statistics": {
+        "total_crm_records": 10,
+        "total_report_records": 5,
+        "matched_records": 0,
+        "missing_in_crm": 0,
+        "missing_in_report": 5,
+        "field_discrepancies": 0,
+        "validation_failures": 14
+    },
+    "discrepancies": [
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "ABCDE1234F",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID 'CRM_01' with PAN 'ABCDE1234F' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "CRM_01"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-26T08:25:06.373815Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "MNOPE9999A",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID 'CRM_03' with PAN 'MNOPE9999A' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "CRM_03"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-26T08:25:06.373815Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "DEFGH4444X",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID 'CRM_04' with PAN 'DEFGH4444X' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "CRM_04"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-26T08:25:06.373815Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "JKLMN3333Z",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID 'CRM_05' with PAN 'JKLMN3333Z' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "CRM_05"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-26T08:25:06.373815Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "CMSPJ2820B",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID 'CMSPJ2820B' with PAN 'CMSPJ2820B' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "CMSPJ2820B"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-26T08:25:06.373815Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        }
+    ],
+    "failed_files": [],
+    "matched_audits": []
+}

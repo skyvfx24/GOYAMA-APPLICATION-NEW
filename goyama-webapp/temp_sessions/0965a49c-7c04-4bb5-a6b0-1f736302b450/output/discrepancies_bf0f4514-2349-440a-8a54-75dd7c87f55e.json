@@ -1,0 +1,120 @@
+{
+    "statistics": {
+        "total_crm_records": 8,
+        "total_report_records": 67,
+        "matched_records": 0,
+        "missing_in_crm": 3,
+        "missing_in_report": 1,
+        "field_discrepancies": 0,
+        "validation_failures": 71
+    },
+    "discrepancies": [
+        {
+            "discrepancy_type": "MISSING_IN_CRM",
+            "pan": "ANUPM8373M",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "CRITICAL",
+            "explanation": "Record with PAN 'ANUPM8373M' and Folio '7771215065' is missing in CRM database.",
+            "source_info": {
+                "file_name": "DHIRAJ MODI SOA BAJAJ.pdf",
+                "raw_row_index": "3",
+                "folio_number": "7771215065"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-26T08:29:01.014858Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: PDF_CAS",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_CRM",
+            "pan": "ANUPM8373M",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "CRITICAL",
+            "explanation": "Record with PAN 'ANUPM8373M' and Folio '91076870015' is missing in CRM database.",
+            "source_info": {
+                "file_name": "DHIRAJ MODI SOA.pdf",
+                "raw_row_index": "1",
+                "folio_number": "91076870015"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-26T08:29:01.014858Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: PDF_CAS",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_CRM",
+            "pan": "ANUPM8373M",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "CRITICAL",
+            "explanation": "Record with PAN 'ANUPM8373M' and Folio 'None' is missing in CRM database.",
+            "source_info": {
+                "file_name": "DHIRAJ MODI SOA.pdf",
+                "raw_row_index": "7",
+                "folio_number": "N/A"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-26T08:29:01.014858Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: PDF_CAS",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "ABIPM4075A",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID '806' with PAN 'ABIPM4075A' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "806"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-26T08:29:01.014858Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        }
+    ],
+    "failed_files": [
+        {
+            "file_name": "NSE SAmple file.xlsx",
+            "source": "NSE",
+            "failure_type": "PARSER_ERROR",
+            "message": "Missing required columns in CRM file: PAN, Investor Name"
+        },
+        {
+            "file_name": "BSE Client master.xlsx",
+            "source": "BSE",
+            "failure_type": "PARSER_ERROR",
+            "message": "Missing required columns in CRM file: PAN, Investor Name"
+        },
+        {
+            "file_name": "CAMS RTA.xls",
+            "source": "UNKNOWN",
+            "failure_type": "PARSER_DETECTION_ERROR",
+            "message": "Parser auto-detection failed for file CAMS RTA.xls: `Import xlrd` failed. Install xlrd >= 2.0.1 for xls Excel support Use pip or conda to install the xlrd package."
+        }
+    ],
+    "matched_audits": []
+}

@@ -1,0 +1,458 @@
+{
+    "statistics": {
+        "total_crm_records": 10,
+        "total_report_records": 15,
+        "matched_records": 3,
+        "missing_in_crm": 1,
+        "missing_in_report": 3,
+        "field_discrepancies": 10,
+        "validation_failures": 20
+    },
+    "discrepancies": [
+        {
+            "discrepancy_type": "KYC_MISMATCH",
+            "pan": "ABCDE1234F",
+            "field_name": "kyc_status",
+            "crm_value": "VERIFIED",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "sample_insurance.xlsx",
+                "raw_row_index": "2",
+                "folio_number": "INS/999888"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-06-26T08:25:00.145197Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: INSURANCE",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED",
+                    "DOB_COMPARISON_SKIPPED",
+                    "BANK_COMPARISON_SKIPPED",
+                    "BANK_ACCOUNT_COMPARISON_SKIPPED",
+                    "IFSC_COMPARISON_SKIPPED",
+                    "ADDRESS_COMPARISON_SKIPPED",
+                    "MODE_OF_HOLDING_COMPARISON_SKIPPED",
+                    "NOMINEE_COMPARISON_SKIPPED",
+                    "NOMINEE_RELATION_COMPARISON_SKIPPED",
+                    "DISTRIBUTOR_ARN_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "FATCA_MISMATCH",
+            "pan": "ABCDE1234F",
+            "field_name": "fatca_status",
+            "crm_value": "COMPLIANT",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "sample_insurance.xlsx",
+                "raw_row_index": "2",
+                "folio_number": "INS/999888"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-06-26T08:25:00.145197Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: INSURANCE",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED",
+                    "DOB_COMPARISON_SKIPPED",
+                    "BANK_COMPARISON_SKIPPED",
+                    "BANK_ACCOUNT_COMPARISON_SKIPPED",
+                    "IFSC_COMPARISON_SKIPPED",
+                    "ADDRESS_COMPARISON_SKIPPED",
+                    "MODE_OF_HOLDING_COMPARISON_SKIPPED",
+                    "NOMINEE_COMPARISON_SKIPPED",
+                    "NOMINEE_RELATION_COMPARISON_SKIPPED",
+                    "DISTRIBUTOR_ARN_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "ABCDE1234F",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "sample_insurance.xlsx",
+                "raw_row_index": "2",
+                "folio_number": "INS/999888"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-06-26T08:25:00.145197Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: INSURANCE",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED",
+                    "DOB_COMPARISON_SKIPPED",
+                    "BANK_COMPARISON_SKIPPED",
+                    "BANK_ACCOUNT_COMPARISON_SKIPPED",
+                    "IFSC_COMPARISON_SKIPPED",
+                    "ADDRESS_COMPARISON_SKIPPED",
+                    "MODE_OF_HOLDING_COMPARISON_SKIPPED",
+                    "NOMINEE_COMPARISON_SKIPPED",
+                    "NOMINEE_RELATION_COMPARISON_SKIPPED",
+                    "DISTRIBUTOR_ARN_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "AMOUNT_MISMATCH",
+            "pan": "ABCDE1234F",
+            "field_name": "total_amount",
+            "crm_value": "75000.5",
+            "report_value": "5000",
+            "severity": "HIGH",
+            "explanation": "Amount mismatch detected. CRM value 75000.50 differs from Report value 5000.00.",
+            "source_info": {
+                "file_name": "sample_insurance.xlsx",
+                "raw_row_index": "2",
+                "folio_number": "INS/999888"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-06-26T08:25:00.145197Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: INSURANCE",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED",
+                    "DOB_COMPARISON_SKIPPED",
+                    "BANK_COMPARISON_SKIPPED",
+                    "BANK_ACCOUNT_COMPARISON_SKIPPED",
+                    "IFSC_COMPARISON_SKIPPED",
+                    "ADDRESS_COMPARISON_SKIPPED",
+                    "MODE_OF_HOLDING_COMPARISON_SKIPPED",
+                    "NOMINEE_COMPARISON_SKIPPED",
+                    "NOMINEE_RELATION_COMPARISON_SKIPPED",
+                    "DISTRIBUTOR_ARN_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MOBILE_MISMATCH",
+            "pan": "ABCDE1234F",
+            "field_name": "mobile",
+            "crm_value": "9876543210",
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "Mobile mismatch detected. CRM value '9876543210' differs from Report value 'None'.",
+            "source_info": {
+                "file_name": "sample_bse.xlsx",
+                "raw_row_index": "2",
+                "folio_number": "N/A"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-06-26T08:25:00.145334Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: BSE",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED",
+                    "DOB_COMPARISON_SKIPPED",
+                    "BANK_COMPARISON_SKIPPED",
+                    "BANK_ACCOUNT_COMPARISON_SKIPPED",
+                    "IFSC_COMPARISON_SKIPPED",
+                    "ADDRESS_COMPARISON_SKIPPED",
+                    "MODE_OF_HOLDING_COMPARISON_SKIPPED",
+                    "NOMINEE_COMPARISON_SKIPPED",
+                    "NOMINEE_RELATION_COMPARISON_SKIPPED",
+                    "DISTRIBUTOR_ARN_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "KYC_MISMATCH",
+            "pan": "ABCDE1234F",
+            "field_name": "kyc_status",
+            "crm_value": "VERIFIED",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Kyc Status mismatch detected. CRM value 'VERIFIED' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "sample_bse.xlsx",
+                "raw_row_index": "2",
+                "folio_number": "N/A"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-06-26T08:25:00.145334Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: BSE",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED",
+                    "DOB_COMPARISON_SKIPPED",
+                    "BANK_COMPARISON_SKIPPED",
+                    "BANK_ACCOUNT_COMPARISON_SKIPPED",
+                    "IFSC_COMPARISON_SKIPPED",
+                    "ADDRESS_COMPARISON_SKIPPED",
+                    "MODE_OF_HOLDING_COMPARISON_SKIPPED",
+                    "NOMINEE_COMPARISON_SKIPPED",
+                    "NOMINEE_RELATION_COMPARISON_SKIPPED",
+                    "DISTRIBUTOR_ARN_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "FATCA_MISMATCH",
+            "pan": "ABCDE1234F",
+            "field_name": "fatca_status",
+            "crm_value": "COMPLIANT",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Fatca Status mismatch detected. CRM value 'COMPLIANT' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "sample_bse.xlsx",
+                "raw_row_index": "2",
+                "folio_number": "N/A"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-06-26T08:25:00.145334Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: BSE",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED",
+                    "DOB_COMPARISON_SKIPPED",
+                    "BANK_COMPARISON_SKIPPED",
+                    "BANK_ACCOUNT_COMPARISON_SKIPPED",
+                    "IFSC_COMPARISON_SKIPPED",
+                    "ADDRESS_COMPARISON_SKIPPED",
+                    "MODE_OF_HOLDING_COMPARISON_SKIPPED",
+                    "NOMINEE_COMPARISON_SKIPPED",
+                    "NOMINEE_RELATION_COMPARISON_SKIPPED",
+                    "DISTRIBUTOR_ARN_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "ABCDE1234F",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "sample_bse.xlsx",
+                "raw_row_index": "2",
+                "folio_number": "N/A"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-06-26T08:25:00.145334Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: BSE",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED",
+                    "DOB_COMPARISON_SKIPPED",
+                    "BANK_COMPARISON_SKIPPED",
+                    "BANK_ACCOUNT_COMPARISON_SKIPPED",
+                    "IFSC_COMPARISON_SKIPPED",
+                    "ADDRESS_COMPARISON_SKIPPED",
+                    "MODE_OF_HOLDING_COMPARISON_SKIPPED",
+                    "NOMINEE_COMPARISON_SKIPPED",
+                    "NOMINEE_RELATION_COMPARISON_SKIPPED",
+                    "DISTRIBUTOR_ARN_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "AMOUNT_MISMATCH",
+            "pan": "ABCDE1234F",
+            "field_name": "total_amount",
+            "crm_value": "75000.5",
+            "report_value": "50000",
+            "severity": "HIGH",
+            "explanation": "Amount mismatch detected. CRM value 75000.50 differs from Report value 50000.00.",
+            "source_info": {
+                "file_name": "sample_bse.xlsx",
+                "raw_row_index": "2",
+                "folio_number": "N/A"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-06-26T08:25:00.145334Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: BSE",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED",
+                    "DOB_COMPARISON_SKIPPED",
+                    "BANK_COMPARISON_SKIPPED",
+                    "BANK_ACCOUNT_COMPARISON_SKIPPED",
+                    "IFSC_COMPARISON_SKIPPED",
+                    "ADDRESS_COMPARISON_SKIPPED",
+                    "MODE_OF_HOLDING_COMPARISON_SKIPPED",
+                    "NOMINEE_COMPARISON_SKIPPED",
+                    "NOMINEE_RELATION_COMPARISON_SKIPPED",
+                    "DISTRIBUTOR_ARN_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_CRM",
+            "pan": "TUVWX1111Y",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "CRITICAL",
+            "explanation": "Record with PAN 'TUVWX1111Y' and Folio 'None' is missing in CRM database.",
+            "source_info": {
+                "file_name": "sample_bse.xlsx",
+                "raw_row_index": "3",
+                "folio_number": "N/A"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-26T08:25:00.145131Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: BSE",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "NAME_MISMATCH",
+            "pan": "CMSPJ2820B",
+            "field_name": "investor_name",
+            "crm_value": "INCOMPLETE CRM INVESTOR",
+            "report_value": "AAKASH VIJAY JAMANIK",
+            "severity": "HIGH",
+            "explanation": "Investor Name mismatch detected. CRM value 'INCOMPLETE CRM INVESTOR' differs from Report value 'AAKASH VIJAY JAMANIK'.",
+            "source_info": {
+                "file_name": "sample_cas.pdf",
+                "raw_row_index": "2",
+                "folio_number": "77711526233"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-06-26T08:25:00.145443Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: PDF_CAS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED",
+                    "DOB_COMPARISON_SKIPPED",
+                    "BANK_COMPARISON_SKIPPED",
+                    "BANK_ACCOUNT_COMPARISON_SKIPPED",
+                    "IFSC_COMPARISON_SKIPPED",
+                    "ADDRESS_COMPARISON_SKIPPED",
+                    "MODE_OF_HOLDING_COMPARISON_SKIPPED",
+                    "NOMINEE_COMPARISON_SKIPPED",
+                    "NOMINEE_RELATION_COMPARISON_SKIPPED",
+                    "DISTRIBUTOR_ARN_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "MNOPE9999A",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID 'CRM_03' with PAN 'MNOPE9999A' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "CRM_03"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-26T08:25:00.145131Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "DEFGH4444X",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID 'CRM_04' with PAN 'DEFGH4444X' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "CRM_04"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-26T08:25:00.145131Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "JKLMN3333Z",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID 'CRM_05' with PAN 'JKLMN3333Z' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "CRM_05"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-26T08:25:00.145131Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        }
+    ],
+    "failed_files": [],
+    "matched_audits": [
+        {
+            "pan": "ABCDE1234F",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "INSURANCE",
+            "timestamp": "2026-06-26T08:25:00.145131Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "ABCDE1234F",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "BSE",
+            "timestamp": "2026-06-26T08:25:00.145131Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "CMSPJ2820B",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "PDF_CAS",
+            "timestamp": "2026-06-26T08:25:00.145131Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        }
+    ]
+}

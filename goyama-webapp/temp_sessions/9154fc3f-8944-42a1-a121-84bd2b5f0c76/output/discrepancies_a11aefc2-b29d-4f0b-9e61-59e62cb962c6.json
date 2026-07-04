@@ -1,0 +1,206 @@
+{
+    "statistics": {
+        "total_crm_records": 5,
+        "total_report_records": 11,
+        "matched_records": 4,
+        "missing_in_crm": 2,
+        "missing_in_report": 1,
+        "field_discrepancies": 3,
+        "validation_failures": 6
+    },
+    "discrepancies": [
+        {
+            "discrepancy_type": "AMOUNT_MISMATCH",
+            "pan": "JKLMN3333Z",
+            "field_name": "total_amount",
+            "crm_value": "50000.0",
+            "report_value": "48000.0",
+            "severity": "CRITICAL",
+            "explanation": "Amount mismatch detected. CRM value 50000.00 differs from Report value 48000.00.",
+            "source_info": {
+                "file_name": "N/A",
+                "raw_row_index": "3",
+                "folio_number": "1122334/45"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-06-14T07:08:25.762804Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "last_transaction_date"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "AMOUNT_MISMATCH",
+            "pan": "ABCDE1234F",
+            "field_name": "total_amount",
+            "crm_value": "75000.5",
+            "report_value": "50000",
+            "severity": "CRITICAL",
+            "explanation": "Amount mismatch detected. CRM value 75000.50 differs from Report value 50000.00.",
+            "source_info": {
+                "file_name": "N/A",
+                "raw_row_index": "2",
+                "folio_number": "N/A"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-06-14T07:08:25.762945Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: BSE",
+                "skipped_comparisons": [
+                    "mobile",
+                    "kyc_status",
+                    "fatca_status",
+                    "investor_status",
+                    "last_transaction_date"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_CRM",
+            "pan": "TUVWX1111Y",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "CRITICAL",
+            "explanation": "Record with PAN 'TUVWX1111Y' and Folio 'None' is missing in CRM database.",
+            "source_info": {
+                "file_name": "N/A",
+                "raw_row_index": "3",
+                "folio_number": "N/A"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-14T07:08:25.762596Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: BSE",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "NAME_MISMATCH",
+            "pan": "DEFGH4444X",
+            "field_name": "investor_name",
+            "crm_value": "ROHIT GUPTA",
+            "report_value": "ROHIT KUMAR GUPTA",
+            "severity": "HIGH",
+            "explanation": "Investor Name mismatch detected. CRM value 'ROHIT GUPTA' differs from Report value 'ROHIT KUMAR GUPTA'.",
+            "source_info": {
+                "file_name": "N/A",
+                "raw_row_index": "2",
+                "folio_number": "N/A"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-06-14T07:08:25.763734Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: NSE",
+                "skipped_comparisons": [
+                    "kyc_status",
+                    "fatca_status",
+                    "investor_status",
+                    "last_transaction_date"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_CRM",
+            "pan": "CMSPJ2820B",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "CRITICAL",
+            "explanation": "Record with PAN 'CMSPJ2820B' and Folio '77711526233' is missing in CRM database.",
+            "source_info": {
+                "file_name": "N/A",
+                "raw_row_index": "2",
+                "folio_number": "77711526233"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-14T07:08:25.762596Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: PDF_CAS",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "MNOPE9999A",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID 'CRM_03' with PAN 'MNOPE9999A' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "CRM_03"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-06-14T07:08:25.762596Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        }
+    ],
+    "failed_files": [],
+    "matched_audits": [
+        {
+            "pan": "ABCDE1234F",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-06-14T07:08:25.762596Z",
+            "skipped_comparisons": [
+                "last_transaction_date"
+            ]
+        },
+        {
+            "pan": "JKLMN3333Z",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-06-14T07:08:25.762596Z",
+            "skipped_comparisons": [
+                "last_transaction_date"
+            ]
+        },
+        {
+            "pan": "ABCDE1234F",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "BSE",
+            "timestamp": "2026-06-14T07:08:25.762596Z",
+            "skipped_comparisons": [
+                "mobile",
+                "kyc_status",
+                "fatca_status",
+                "investor_status",
+                "last_transaction_date"
+            ]
+        },
+        {
+            "pan": "DEFGH4444X",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "NSE",
+            "timestamp": "2026-06-14T07:08:25.762596Z",
+            "skipped_comparisons": [
+                "kyc_status",
+                "fatca_status",
+                "investor_status",
+                "last_transaction_date"
+            ]
+        }
+    ]
+}

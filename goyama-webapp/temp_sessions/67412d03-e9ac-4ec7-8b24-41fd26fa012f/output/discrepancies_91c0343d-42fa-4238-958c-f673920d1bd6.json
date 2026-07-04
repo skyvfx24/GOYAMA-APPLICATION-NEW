@@ -1,0 +1,1653 @@
+{
+    "statistics": {
+        "total_crm_records": 8,
+        "total_report_records": 67,
+        "matched_records": 30,
+        "missing_in_crm": 3,
+        "missing_in_report": 2,
+        "field_discrepancies": 49,
+        "validation_failures": 35
+    },
+    "discrepancies": [
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AJSPM7675A",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "2",
+                "folio_number": "17722568644"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.222720Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AJSPM7675A",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "3",
+                "folio_number": "17723997703"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.222896Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AJSPM7675A",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "4",
+                "folio_number": "17724992174"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223014Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "NAME_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "investor_name",
+            "crm_value": "DHIRAJ MOHANLAL MODI",
+            "report_value": "DHIRAJ MODI",
+            "severity": "HIGH",
+            "explanation": "Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "5",
+                "folio_number": "17723888184"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223113Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MOBILE_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "mobile",
+            "crm_value": "9833708075",
+            "report_value": "9867065625",
+            "severity": "MEDIUM",
+            "explanation": "Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "5",
+                "folio_number": "17723888184"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223113Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "EMAIL_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "email",
+            "crm_value": "dhiraj.modi@goyamafinserv.com",
+            "report_value": "divyainvestment@outlook.com",
+            "severity": "MEDIUM",
+            "explanation": "Email mismatch detected. CRM value 'dhiraj.modi@goyamafinserv.com' differs from Report value 'divyainvestment@outlook.com'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "5",
+                "folio_number": "17723888184"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223113Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AHYPD2463R",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "6",
+                "folio_number": "17721742596"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223200Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AHYPD2463R",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "8",
+                "folio_number": "17748847355"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223260Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "NAME_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "investor_name",
+            "crm_value": "DHIRAJ MOHANLAL MODI",
+            "report_value": "DHIRAJ MODI",
+            "severity": "HIGH",
+            "explanation": "Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "11",
+                "folio_number": "577342093761"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223318Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MOBILE_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "mobile",
+            "crm_value": "9833708075",
+            "report_value": "9867065625",
+            "severity": "MEDIUM",
+            "explanation": "Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "11",
+                "folio_number": "577342093761"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223318Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "EMAIL_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "email",
+            "crm_value": "dhiraj.modi@goyamafinserv.com",
+            "report_value": "divyainvestment@outlook.com",
+            "severity": "MEDIUM",
+            "explanation": "Email mismatch detected. CRM value 'dhiraj.modi@goyamafinserv.com' differs from Report value 'divyainvestment@outlook.com'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "11",
+                "folio_number": "577342093761"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223318Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MOBILE_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "mobile",
+            "crm_value": "9833708075",
+            "report_value": "9867065625",
+            "severity": "MEDIUM",
+            "explanation": "Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "12",
+                "folio_number": "77526960274"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223387Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "EMAIL_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "email",
+            "crm_value": "dhiraj.modi@goyamafinserv.com",
+            "report_value": "divyainvestment@outlook.com",
+            "severity": "MEDIUM",
+            "explanation": "Email mismatch detected. CRM value 'dhiraj.modi@goyamafinserv.com' differs from Report value 'divyainvestment@outlook.com'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "12",
+                "folio_number": "77526960274"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223387Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AHYPD2463R",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "13",
+                "folio_number": "77722336712"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223446Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AJSPM7675A",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "14",
+                "folio_number": "77723637426"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223493Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "NAME_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "investor_name",
+            "crm_value": "DHIRAJ MOHANLAL MODI",
+            "report_value": "DHIRAJ MODI",
+            "severity": "HIGH",
+            "explanation": "Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "22",
+                "folio_number": "91013745665"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223538Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MOBILE_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "mobile",
+            "crm_value": "9833708075",
+            "report_value": "9867065625",
+            "severity": "MEDIUM",
+            "explanation": "Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "22",
+                "folio_number": "91013745665"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223538Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "EMAIL_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "email",
+            "crm_value": "dhiraj.modi@goyamafinserv.com",
+            "report_value": "divyainvestment@outlook.com",
+            "severity": "MEDIUM",
+            "explanation": "Email mismatch detected. CRM value 'dhiraj.modi@goyamafinserv.com' differs from Report value 'divyainvestment@outlook.com'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "22",
+                "folio_number": "91013745665"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223538Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AHYPD2463R",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "23",
+                "folio_number": "9106288762"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223595Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AJSPM7675A",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "24",
+                "folio_number": "9107272395"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223656Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AHYPD2463R",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "26",
+                "folio_number": "3107660906"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223703Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AHYPD2463R",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "27",
+                "folio_number": "9107204064"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223749Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "NAME_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "investor_name",
+            "crm_value": "DHIRAJ MOHANLAL MODI",
+            "report_value": "DHIRAJ MODI",
+            "severity": "HIGH",
+            "explanation": "Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "28",
+                "folio_number": "91018442454"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223794Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MOBILE_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "mobile",
+            "crm_value": "9833708075",
+            "report_value": "9867065625",
+            "severity": "MEDIUM",
+            "explanation": "Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "28",
+                "folio_number": "91018442454"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223794Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "EMAIL_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "email",
+            "crm_value": "dhiraj.modi@goyamafinserv.com",
+            "report_value": "divyainvestment@outlook.com",
+            "severity": "MEDIUM",
+            "explanation": "Email mismatch detected. CRM value 'dhiraj.modi@goyamafinserv.com' differs from Report value 'divyainvestment@outlook.com'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "28",
+                "folio_number": "91018442454"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223794Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AHYPD2463R",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "29",
+                "folio_number": "90413747966"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223850Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AJSPM7675A",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "30",
+                "folio_number": "90417902164"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223893Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_CRM",
+            "pan": "BKAPM3002M",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "CRITICAL",
+            "explanation": "Record with PAN 'BKAPM3002M' and Folio '910195756676' is missing in CRM database.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "32",
+                "folio_number": "910195756676"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.222618Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "NAME_MISMATCH",
+            "pan": "ABIPM4075A",
+            "field_name": "investor_name",
+            "crm_value": "MOHANLAL MODI",
+            "report_value": "MOHAN LAL MODI",
+            "severity": "HIGH",
+            "explanation": "Investor Name mismatch detected. CRM value 'MOHANLAL MODI' differs from Report value 'MOHAN LAL MODI'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "34",
+                "folio_number": "91098965985"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223960Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "EMAIL_MISMATCH",
+            "pan": "ABIPM4075A",
+            "field_name": "email",
+            "crm_value": "manish_fic@yahoo.com",
+            "report_value": "manish_fic@yahoo.co.in",
+            "severity": "MEDIUM",
+            "explanation": "Email mismatch detected. CRM value 'manish_fic@yahoo.com' differs from Report value 'manish_fic@yahoo.co.in'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "34",
+                "folio_number": "91098965985"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223960Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "ABIPM4075A",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "34",
+                "folio_number": "91098965985"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.223960Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "NAME_MISMATCH",
+            "pan": "ABIPM4075A",
+            "field_name": "investor_name",
+            "crm_value": "MOHANLAL MODI",
+            "report_value": "MOHAN LAL MODI",
+            "severity": "HIGH",
+            "explanation": "Investor Name mismatch detected. CRM value 'MOHANLAL MODI' differs from Report value 'MOHAN LAL MODI'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "35",
+                "folio_number": "910101790101"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224018Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "ABIPM4075A",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "35",
+                "folio_number": "910101790101"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224018Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "IGOPM2504R",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "36",
+                "folio_number": "910113199685"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224131Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AHYPD2463R",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "40",
+                "folio_number": "910108487071"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224192Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "NAME_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "investor_name",
+            "crm_value": "DHIRAJ MOHANLAL MODI",
+            "report_value": "DHIRAJ MODI",
+            "severity": "HIGH",
+            "explanation": "Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "43",
+                "folio_number": "91076870015"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224243Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MOBILE_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "mobile",
+            "crm_value": "9833708075",
+            "report_value": "9867065625",
+            "severity": "MEDIUM",
+            "explanation": "Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "43",
+                "folio_number": "91076870015"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224243Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "EMAIL_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "email",
+            "crm_value": "dhiraj.modi@goyamafinserv.com",
+            "report_value": "divyainvestment@outlook.com",
+            "severity": "MEDIUM",
+            "explanation": "Email mismatch detected. CRM value 'dhiraj.modi@goyamafinserv.com' differs from Report value 'divyainvestment@outlook.com'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "43",
+                "folio_number": "91076870015"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224243Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "NAME_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "investor_name",
+            "crm_value": "DHIRAJ MOHANLAL MODI",
+            "report_value": "DHIRAJ MODI",
+            "severity": "HIGH",
+            "explanation": "Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "46",
+                "folio_number": "7771215065"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224302Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MOBILE_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "mobile",
+            "crm_value": "9833708075",
+            "report_value": "9867065625",
+            "severity": "MEDIUM",
+            "explanation": "Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "46",
+                "folio_number": "7771215065"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224302Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "EMAIL_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "email",
+            "crm_value": "dhiraj.modi@goyamafinserv.com",
+            "report_value": "divyainvestment@outlook.com",
+            "severity": "MEDIUM",
+            "explanation": "Email mismatch detected. CRM value 'dhiraj.modi@goyamafinserv.com' differs from Report value 'divyainvestment@outlook.com'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "46",
+                "folio_number": "7771215065"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224302Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AHYPD2463R",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "47",
+                "folio_number": "7771630195"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224358Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_CRM",
+            "pan": "CMSPJ2820B",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "CRITICAL",
+            "explanation": "Record with PAN 'CMSPJ2820B' and Folio '77711526233' is missing in CRM database.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "48",
+                "folio_number": "77711526233"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.222618Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AHYPD2463R",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "51",
+                "folio_number": "477321317222"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224425Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_CRM",
+            "pan": "BKAPM3002M",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "CRITICAL",
+            "explanation": "Record with PAN 'BKAPM3002M' and Folio '475384550996' is missing in CRM database.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "52",
+                "folio_number": "475384550996"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.222618Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "STATUS_MISMATCH",
+            "pan": "AHYPD2463R",
+            "field_name": "investor_status",
+            "crm_value": "ACTIVE",
+            "report_value": "UNKNOWN",
+            "severity": "HIGH",
+            "explanation": "Investor Status mismatch detected. CRM value 'ACTIVE' differs from Report value 'UNKNOWN'.",
+            "source_info": {
+                "file_name": "KARVI.xlsx",
+                "raw_row_index": "53",
+                "folio_number": "477274143181"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224488Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: CAMS",
+                "skipped_comparisons": [
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "NAME_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "investor_name",
+            "crm_value": "DHIRAJ MOHANLAL MODI",
+            "report_value": "DHIRAJ MODI",
+            "severity": "HIGH",
+            "explanation": "Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI'.",
+            "source_info": {
+                "file_name": "DHIRAJ MODI SOA BAJAJ.pdf",
+                "raw_row_index": "3",
+                "folio_number": "7771215065"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224545Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: PDF_CAS",
+                "skipped_comparisons": [
+                    "EMAIL_COMPARISON_SKIPPED",
+                    "KYC_COMPARISON_SKIPPED",
+                    "FATCA_COMPARISON_SKIPPED",
+                    "STATUS_COMPARISON_SKIPPED",
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MOBILE_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "mobile",
+            "crm_value": "9833708075",
+            "report_value": null,
+            "severity": "MEDIUM",
+            "explanation": "Mobile mismatch detected. CRM value '9833708075' differs from Report value 'None'.",
+            "source_info": {
+                "file_name": "DHIRAJ MODI SOA BAJAJ.pdf",
+                "raw_row_index": "3",
+                "folio_number": "7771215065"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224545Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: PDF_CAS",
+                "skipped_comparisons": [
+                    "EMAIL_COMPARISON_SKIPPED",
+                    "KYC_COMPARISON_SKIPPED",
+                    "FATCA_COMPARISON_SKIPPED",
+                    "STATUS_COMPARISON_SKIPPED",
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "NAME_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "investor_name",
+            "crm_value": "DHIRAJ MOHANLAL MODI",
+            "report_value": "DHIRAJ MODI STATEMENT DATE",
+            "severity": "HIGH",
+            "explanation": "Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI STATEMENT DATE'.",
+            "source_info": {
+                "file_name": "DHIRAJ MODI SOA.pdf",
+                "raw_row_index": "1",
+                "folio_number": "91076870015"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224604Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: PDF_CAS",
+                "skipped_comparisons": [
+                    "EMAIL_COMPARISON_SKIPPED",
+                    "KYC_COMPARISON_SKIPPED",
+                    "FATCA_COMPARISON_SKIPPED",
+                    "STATUS_COMPARISON_SKIPPED",
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MOBILE_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "mobile",
+            "crm_value": "9833708075",
+            "report_value": "9867065625",
+            "severity": "MEDIUM",
+            "explanation": "Mobile mismatch detected. CRM value '9833708075' differs from Report value '9867065625'.",
+            "source_info": {
+                "file_name": "DHIRAJ MODI SOA.pdf",
+                "raw_row_index": "1",
+                "folio_number": "91076870015"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224604Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: PDF_CAS",
+                "skipped_comparisons": [
+                    "EMAIL_COMPARISON_SKIPPED",
+                    "KYC_COMPARISON_SKIPPED",
+                    "FATCA_COMPARISON_SKIPPED",
+                    "STATUS_COMPARISON_SKIPPED",
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "NAME_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "investor_name",
+            "crm_value": "DHIRAJ MOHANLAL MODI",
+            "report_value": "DHIRAJ MODI CAN",
+            "severity": "HIGH",
+            "explanation": "Investor Name mismatch detected. CRM value 'DHIRAJ MOHANLAL MODI' differs from Report value 'DHIRAJ MODI CAN'.",
+            "source_info": {
+                "file_name": "DHIRAJ MODI SOA.pdf",
+                "raw_row_index": "7",
+                "folio_number": "N/A"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224660Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: PDF_CAS",
+                "skipped_comparisons": [
+                    "EMAIL_COMPARISON_SKIPPED",
+                    "KYC_COMPARISON_SKIPPED",
+                    "FATCA_COMPARISON_SKIPPED",
+                    "STATUS_COMPARISON_SKIPPED",
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MOBILE_MISMATCH",
+            "pan": "ANUPM8373M",
+            "field_name": "mobile",
+            "crm_value": "9833708075",
+            "report_value": null,
+            "severity": "MEDIUM",
+            "explanation": "Mobile mismatch detected. CRM value '9833708075' differs from Report value 'None'.",
+            "source_info": {
+                "file_name": "DHIRAJ MODI SOA.pdf",
+                "raw_row_index": "7",
+                "folio_number": "N/A"
+            },
+            "audit_trace": {
+                "matching_route": "EXACT_PAN",
+                "match_confidence": 1.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.224660Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "SourceProfile: PDF_CAS",
+                "skipped_comparisons": [
+                    "EMAIL_COMPARISON_SKIPPED",
+                    "KYC_COMPARISON_SKIPPED",
+                    "FATCA_COMPARISON_SKIPPED",
+                    "STATUS_COMPARISON_SKIPPED",
+                    "DATE_COMPARISON_SKIPPED"
+                ]
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "AMZPM3033A",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID '346' with PAN 'AMZPM3033A' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "346"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.222618Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        },
+        {
+            "discrepancy_type": "MISSING_IN_REPORT",
+            "pan": "AAIHD8153P",
+            "field_name": null,
+            "crm_value": null,
+            "report_value": null,
+            "severity": "HIGH",
+            "explanation": "CRM Client ID '974' with PAN 'AAIHD8153P' is missing in the processed report files.",
+            "source_info": {
+                "crm_client_id": "974"
+            },
+            "audit_trace": {
+                "matching_route": "UNMATCHED",
+                "match_confidence": 0.0,
+                "evaluation_timestamp": "2026-07-01T15:44:56.222618Z",
+                "reconciler_version": "1.0.0",
+                "rule_evaluated": "CRM Master List",
+                "skipped_comparisons": []
+            }
+        }
+    ],
+    "failed_files": [
+        {
+            "file_name": "NSE SAmple file.xlsx",
+            "source": "NSE",
+            "failure_type": "PARSER_ERROR",
+            "message": "Missing required columns in CRM file: PAN, Investor Name"
+        },
+        {
+            "file_name": "BSE Client master.xlsx",
+            "source": "BSE",
+            "failure_type": "PARSER_ERROR",
+            "message": "Missing required columns in CRM file: PAN, Investor Name"
+        },
+        {
+            "file_name": "CAMS RTA.xls",
+            "source": "CAMS",
+            "failure_type": "PARSER_ERROR",
+            "message": "Missing required columns in CRM file: PAN, Investor Name"
+        }
+    ],
+    "matched_audits": [
+        {
+            "pan": "AJSPM7675A",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "AJSPM7675A",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "AJSPM7675A",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "ANUPM8373M",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "AHYPD2463R",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "AHYPD2463R",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "ANUPM8373M",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "ANUPM8373M",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "AHYPD2463R",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "AJSPM7675A",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "ANUPM8373M",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "AHYPD2463R",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "AJSPM7675A",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "AHYPD2463R",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "AHYPD2463R",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "ANUPM8373M",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "AHYPD2463R",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "AJSPM7675A",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "ABIPM4075A",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "ABIPM4075A",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "IGOPM2504R",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "AHYPD2463R",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "ANUPM8373M",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "ANUPM8373M",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "AHYPD2463R",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "AHYPD2463R",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "AHYPD2463R",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "CAMS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "ANUPM8373M",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "PDF_CAS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "EMAIL_COMPARISON_SKIPPED",
+                "KYC_COMPARISON_SKIPPED",
+                "FATCA_COMPARISON_SKIPPED",
+                "STATUS_COMPARISON_SKIPPED",
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "ANUPM8373M",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "PDF_CAS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "EMAIL_COMPARISON_SKIPPED",
+                "KYC_COMPARISON_SKIPPED",
+                "FATCA_COMPARISON_SKIPPED",
+                "STATUS_COMPARISON_SKIPPED",
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        },
+        {
+            "pan": "ANUPM8373M",
+            "route": "EXACT_PAN",
+            "confidence": 1.0,
+            "source": "PDF_CAS",
+            "timestamp": "2026-07-01T15:44:56.222618Z",
+            "skipped_comparisons": [
+                "EMAIL_COMPARISON_SKIPPED",
+                "KYC_COMPARISON_SKIPPED",
+                "FATCA_COMPARISON_SKIPPED",
+                "STATUS_COMPARISON_SKIPPED",
+                "DATE_COMPARISON_SKIPPED"
+            ]
+        }
+    ]
+}
