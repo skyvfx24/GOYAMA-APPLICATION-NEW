@@ -1,0 +1,71 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mfrecon"
+version = "1.0.0"
+description = "Production-grade Mutual Fund Reconciliation Engine library"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "Proprietary" }
+authors = [
+    { name = "Goyama Financial Dev Team", email = "dev@goyama.com" }
+]
+dependencies = [
+    "pydantic>=2.7.0",
+    "pyyaml>=6.0",
+    "loguru>=0.7.0",
+    "pandas>=2.2.2",
+    "openpyxl>=3.1.5",
+    "rapidfuzz>=3.9.3",
+    "pdfplumber>=0.11.0",
+    "email-validator>=2.0.0"
+]
+
+[project.scripts]
+mfrecon = "mfrecon.cli:main"
+
+[tool.ruff]
+line-length = 120
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "N", "UP", "B", "A", "C4", "RET", "SIM", "ARG", "PTH", "ERA", "PL"]
+ignore = ["N818", "PLR0912", "PLR0915", "PLR0911", "PLR2004", "PLR0913", "E501", "ARG002"]
+
+[tool.mypy]
+python_version = "3.12"
+warn_unused_configs = true
+disallow_any_generics = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+no_implicit_optional = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+warn_return_any = true
+no_implicit_reexport = true
+strict_equality = true
+
+[[tool.mypy.overrides]]
+module = [
+    "pandas.*",
+    "openpyxl.*",
+    "pdfplumber.*",
+    "rapidfuzz.*"
+]
+ignore_missing_imports = true
+
+[[tool.mypy.overrides]]
+module = "tests.*"
+disallow_untyped_defs = false
+disallow_incomplete_defs = false
+disallow_untyped_calls = false
+disallow_any_generics = false
+
+[tool.setuptools]
+packages = ["mfrecon"]

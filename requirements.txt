@@ -1,0 +1,14 @@
+pydantic>=2.7.0
+pyyaml>=6.0
+loguru>=0.7.0
+pandas>=2.2.2
+openpyxl>=3.1.5
+rapidfuzz>=3.9.3
+pdfplumber>=0.11.0
+pytest>=8.2.0
+ruff>=0.4.8
+mypy>=1.10.0
+types-pyyaml>=6.0.12.20240311
+email-validator>=2.0.0
+xlrd>=2.0.1
+

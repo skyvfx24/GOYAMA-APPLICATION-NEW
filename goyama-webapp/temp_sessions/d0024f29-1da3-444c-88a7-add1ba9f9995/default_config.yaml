@@ -1,0 +1,169 @@
+engine:
+  amount_epsilon: 0.05
+  date_days_tolerance: 3
+  run_mode: TOLERANT
+matching:
+  enable_fuzzy_matching: true
+  fuzzy_secondary_keys:
+  - mobile
+  - email
+  fuzzy_threshold: 0.9
+  primary_key: pan
+  source_overrides:
+    CAMS:
+      enable_fuzzy_matching: true
+      fuzzy_threshold: 0.88
+reporting:
+  default_output_formats:
+  - excel
+  - csv
+  - json
+  redact_sensitive_fields: false
+  severity_mappings:
+    AMOUNT_MISMATCH: CRITICAL
+    DATE_MISMATCH: LOW
+    EMAIL_MISMATCH: MEDIUM
+    FATCA_MISMATCH: HIGH
+    FIELD_EMPTY: MEDIUM
+    FIELD_MISSING: MEDIUM
+    INCOMPLETE_CRM_RECORD: MEDIUM
+    KYC_MISMATCH: MEDIUM
+    MISSING_IN_CRM: CRITICAL
+    MISSING_IN_REPORT: HIGH
+    MOBILE_MISMATCH: MEDIUM
+    NAME_MISMATCH: HIGH
+sources:
+  BSE:
+    available_fields:
+    - pan
+    - investor_name
+    - email
+    - total_amount
+    - investor_status
+    - kyc_status
+    - fatca_status
+    - tax_status
+    compare:
+    - pan
+    - investor_name
+    - email
+    - total_amount
+    - investor_status
+    - kyc_status
+    - fatca_status
+    required_fields:
+    - pan
+    - investor_name
+    validations:
+    - pan_format
+    - email_format
+  CAMS:
+    available_fields:
+    - pan
+    - investor_name
+    - mobile
+    - email
+    - kyc_status
+    - fatca_status
+    - investor_status
+    - total_amount
+    - folio_number
+    - tax_status
+    compare:
+    - pan
+    - investor_name
+    - mobile
+    - email
+    - kyc_status
+    - fatca_status
+    - investor_status
+    - total_amount
+    required_fields:
+    - pan
+    - investor_name
+    validations:
+    - pan_format
+    - mobile_format
+    - email_format
+  KFINTECH:
+    available_fields:
+    - pan
+    - investor_name
+    - mobile
+    - total_amount
+    - folio_number
+    - investor_status
+    - kyc_status
+    - fatca_status
+    - tax_status
+    compare:
+    - pan
+    - investor_name
+    - mobile
+    - total_amount
+    - investor_status
+    - kyc_status
+    - fatca_status
+    required_fields:
+    - pan
+    - investor_name
+    validations:
+    - pan_format
+    - mobile_format
+  NSE:
+    available_fields:
+    - pan
+    - investor_name
+    - mobile
+    - email
+    - total_amount
+    - investor_status
+    - kyc_status
+    - fatca_status
+    - tax_status
+    compare:
+    - pan
+    - investor_name
+    - mobile
+    - email
+    - total_amount
+    - investor_status
+    - kyc_status
+    - fatca_status
+    required_fields:
+    - pan
+    - investor_name
+    validations:
+    - pan_format
+    - mobile_format
+    - email_format
+  PDF_CAS:
+    available_fields:
+    - pan
+    - investor_name
+    - mobile
+    - email
+    - total_amount
+    - folio_number
+    - tax_status
+    compare:
+    - pan
+    - investor_name
+    - mobile
+    - total_amount
+    required_fields:
+    - pan
+    - investor_name
+    validations:
+    - pan_format
+    - mobile_format
+validation:
+  allowed_fatca_statuses:
+  - COMPLIANT
+  allowed_kyc_statuses:
+  - VERIFIED
+  - EXEMPT
+  require_pan: true
+  suppress_missing_in_report_for_incomplete_crm: true
+  validate_fatca_status: true
+  validate_kyc_status: true
